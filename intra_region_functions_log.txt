@@ -1,0 +1,47 @@
+Log for region Middle Africa opened at: 2026-09-10 12:25:22
+#-------------------------------------------------------------------------------------------#
+
+ There are 5 countries in the dataset of this region:
+Angola
+Cameroon
+Central African Republic
+Chad
+Sao Tome and Principe
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_region_plots function
+#----------------------------#
+
+single_region_plots function concluded
+#-----------------------------------------------------------------------#
+Log for region Western Asia opened at: 2026-09-14 13:40:37 Jerusalm time. UTC time is 2026-09-14 10:40:37
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 16 countries in the dataset of this region:
+Armenia
+Azerbaijan
+Bahrain
+Cyprus
+Georgia
+Iraq
+Israel
+Jordan
+Kuwait
+Oman
+Qatar
+Saudi Arabia
+Syria
+Turkey
+United Arab Emirates
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_region_plots function
+#----------------------------#
+
+single_region_plots function concluded
+#-----------------------------------------------------------------------#

@@ -1,0 +1,333 @@
+Log opened at: 2026-09-14 13:41:27 Jerusalm time. UTC time is 2026-09-14 10:41:27
+Run on data imported from existing csv file created in the past
+Starting Analysis and Processing...
+
+#------Handling Duplicates on the 'Country' column----#
+Original length of dataset was 192
+Length of dataset after removal of duplicates is 192
+Total of 0 duplicates were identified and removed on the 'Country' column
+#-----------------------------------------------------------------------------------#
+
+#------Splitting the column list to numeric and non-numeric---------------#
+
+There are 32 numeric columns in the dataset
+There are 5 non-numeric columns in the dataset
+
+#-------List of numeric columns ---------#
+gdp
+sex_ratio
+surface_area
+life_expectancy_male
+unemployment
+homicide_rate
+urban_population_growth
+secondary_school_enrollment_female
+employment_agriculture
+co2_emissions
+forested_area
+tourists
+life_expectancy_female
+post_secondary_enrollment_female
+post_secondary_enrollment_male
+primary_school_enrollment_female
+infant_mortality
+gdp_growth
+population
+urban_population
+secondary_school_enrollment_male
+pop_growth
+pop_density
+internet_users
+gdp_per_capita
+fertility
+refugees
+primary_school_enrollment_male
+employment_industry
+employment_services
+imports
+exports
+
+#-------List of non-numeric columns ---------#
+ISO2
+Continent
+flag_url
+region
+capital
+#-----------------------------------------------------------------------#
+
+#------Report the number of removed rows (countries) ----------------------#
+Original length of dataset before removal of NA rows was 192
+Length of dataset after removal of NA rows is 162
+Total of 30 rows with more than 10% empty cells on the numerical columns of the dataset were identified and removed from the dataset 
+The following countries were removed from the original list following the drop of rows described above:
+Andorra
+Bosnia and Herzegovina
+Congo (Congo-Brazzaville)
+Dominica
+Equatorial Guinea
+Gabon
+Grenada
+Guinea-Bissau
+Haiti
+Japan
+Kiribati
+Laos
+Lebanon
+Liechtenstein
+Maldives
+Micronesia
+Monaco
+Myanmar (Burma)
+Nauru
+North Korea
+Palestine State
+Saint Kitts and Nevis
+San Marino
+Somalia
+South Korea
+South Sudan
+Taiwan
+Trinidad and Tobago
+Tuvalu
+Vanuatu
+
+#-----------------------------------------------------------------------#
+
+#-------List of nan_percentage per column ---------#
+gdp: 0.0
+sex_ratio: 0.0
+surface_area: 0.6
+life_expectancy_male: 0.0
+unemployment: 0.0
+homicide_rate: 7.4
+urban_population_growth: 0.0
+secondary_school_enrollment_female: 1.2
+employment_agriculture: 0.0
+co2_emissions: 22.8
+forested_area: 0.6
+tourists: 1.9
+life_expectancy_female: 0.0
+post_secondary_enrollment_female: 7.4
+post_secondary_enrollment_male: 7.4
+primary_school_enrollment_female: 0.0
+infant_mortality: 0.0
+gdp_growth: 0.0
+population: 0.0
+urban_population: 0.0
+secondary_school_enrollment_male: 1.2
+pop_growth: 0.0
+pop_density: 0.0
+internet_users: 0.6
+gdp_per_capita: 0.0
+fertility: 0.0
+refugees: 2.5
+primary_school_enrollment_male: 0.0
+employment_industry: 0.0
+employment_services: 0.0
+imports: 0.0
+exports: 0.0
+#----------------------------------------------------:
+
+
+#------Summary of geographical data in the processed dataset----------------------#
+
+Total of 162 are included in the set:
+Afghanistan
+Albania
+Algeria
+Angola
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Botswana
+Brazil
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Central African Republic
+Chad
+Chile
+China
+Colombia
+Comoros
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czechia
+Denmark
+Djibouti
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Fiji
+Finland
+France
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Guatemala
+Guinea
+Guyana
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Jordan
+Kazakhstan
+Kenya
+Kuwait
+Kyrgyzstan
+Latvia
+Lesotho
+Liberia
+Libya
+Lithuania
+Luxembourg
+Madagascar
+Malawi
+Malaysia
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Moldova
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Namibia
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+North Macedonia
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russia
+Rwanda
+Saint Lucia
+Saint Vincent and the Grenadines
+Samoa
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+South Africa
+Spain
+Sri Lanka
+Sudan
+Suriname
+Sweden
+Switzerland
+Syria
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tonga
+Tunisia
+Turkey
+Turkmenistan
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe
+#----------
+
+
+Total of 6 continents are included in the set:
+Asia
+Europe
+Africa
+South America
+Oceania
+North America
+#----------
+
+
+Total of 22 regions are included in the set:
+Southern Asia
+Southern Europe
+Northern Africa
+Middle Africa
+South America
+Western Asia
+Oceania
+Western Europe
+Caribbean
+Eastern Europe
+Central America
+Western Africa
+Southern Africa
+South-Eastern Asia
+Eastern Africa
+Northern America
+Eastern Asia
+Northern Europe
+Melanesia
+Central Asia
+Micronesia
+Polynesia
+#-----------------------------------------------------

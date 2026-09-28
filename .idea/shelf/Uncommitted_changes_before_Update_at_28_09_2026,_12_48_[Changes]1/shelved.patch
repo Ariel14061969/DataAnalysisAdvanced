@@ -1,0 +1,1821 @@
+Index: Inter_Continent.py
+===================================================================
+diff --git a/Inter_Continent.py b/src/algo/Inter_Continent.py
+rename from Inter_Continent.py
+rename to src/algo/Inter_Continent.py
+--- a/Inter_Continent.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Inter_Continent.py	(date 1790174945024)
+@@ -1,5 +1,5 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ def inter_continent(country_data):
+     #Lior Sinay 10/09/26 - Put in comment,importing * from libs and modules
+@@ -16,9 +16,9 @@
+ 
+         if col not in exclude_col and  isinstance(df.loc[df.index[0],col],float):
+             if ng % 4 == 0:
+-                #Lior Sinay 10/09/2026 - replaced plt with plt.pyplot
++                #Lior Sinay 10/09/2026 - replaced plt with plt
+                 #fig, axes = plt.subplots(2,2,figsize=(12, 6))
+-                fig, axes = plt.pyplot.subplots(2, 2, figsize=(12, 6))
++                fig, axes = plt.subplots(2, 2, figsize=(12, 6))
+                 axes = axes.flatten()
+             ax = axes[ng % 4]
+             lb = col
+Index: Inter_Country.py
+===================================================================
+diff --git a/Inter_Country.py b/src/algo/Inter_Country.py
+rename from Inter_Country.py
+rename to src/algo/Inter_Country.py
+--- a/Inter_Country.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Inter_Country.py	(date 1790174945023)
+@@ -2,9 +2,9 @@
+ #from statistics import mean
+ 
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+-def inter_country(country_data,MyCountry,char_exp, compareTo='World'):
++def inter_country(country_data,MyCountry, compareTo='World'):
+ 
+     # Lior Sinay 10/09/26 - placed in comment , importing * from libs and modules
+     #import seaborn as sns
+@@ -35,12 +35,12 @@
+                 lb = lb + ' per capita'
+ 
+             if ng % 4 == 0:
+-                # Lior Sinay 10/09/26 - replaced plt with plt.pyplot
++                # Lior Sinay 10/09/26 - replaced plt with plt
+                 #fig, axes = plt.subplots(2,2,figsize=(12, 6))
+-                fig, axes = plt.pyplot.subplots(2, 2, figsize=(12, 6))
++                fig, axes = plt.subplots(2, 2, figsize=(12, 6))
+                 axes = axes.flatten()
+             ax = axes[ng % 4]
+-            expl = char_exp[char_exp['var'] == col]['explain']
++            #expl = char_exp[char_exp['var'] == col]['explain']
+             sns.histplot(df['rel'].dropna() , bins = 30,ax=ax)
+             min_country = df['rel'].idxmin()
+             max_country = df['rel'].idxmax()
+Index: Intra_region_functions.py
+===================================================================
+diff --git a/Intra_region_functions.py b/src/algo/Intra_region_functions.py
+rename from Intra_region_functions.py
+rename to src/algo/Intra_region_functions.py
+--- a/Intra_region_functions.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Intra_region_functions.py	(date 1790174945021)
+@@ -1,5 +1,5 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ # ---------------------------------------------------------------------------------------------------------------------#
+ # Function: run_intra_region_analysis                                                                                  #
+@@ -14,7 +14,7 @@
+     region_name = df_region.region.iloc[0]
+     country_list = list(df_region.index) # List of countries that are specified for the selected region
+     # Open the Intra region analysis log file
+-    log_file = open('intra_region_functions_log.txt', 'a+')
++    log_file = open('output/intra_region_functions_log.txt', 'a+')
+     log_file.write(f'Log for region {region_name} opened at: {dt.datetime.now(zi.ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H:%M:%S")} Jerusalm time. '
+                    f'UTC time is {dt.datetime.now(zi.ZoneInfo("UTC")).strftime("%Y-%m-%d %H:%M:%S")}\n')
+     log_file.write(f'#--------------------------------------------------------------------------------------------------------------------------------------------#\n')
+@@ -52,21 +52,21 @@
+     #-------------------------Create histogram and box plot for GDP----------------------#
+     col1, col2 = st.columns([1, 1])
+     with col1:
+-        fig_gdp, ax_gdp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp, ax_gdp = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='gdp', bins=10, ax=ax_gdp, color='green', kde = True)
+         ax_gdp.set_title(f'Distribution of GDP for {region_name}')
+         ax_gdp.set_xlabel('GDP [Millions of $]')
+         ax_gdp.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp)
+ 
+     with col2:
+-        fig_gdp_bp, ax_gdp_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_bp, ax_gdp_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='gdp', ax=ax_gdp_bp, color='green')
+         ax_gdp_bp.set_title(f'GDP for region {region_name}, a boxplot representation')
+         ax_gdp_bp.set_xlabel('')
+         ax_gdp_bp.set_ylabel('GDP [Millions of $]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_bp)
+ 
+     # ----------------------End of histogram and box plots for GDP --------------------------- #
+@@ -74,27 +74,27 @@
+     # -------------------Create histogram and box plot for GDP Per Capita----------------------#
+     col3, col4 = st.columns([1, 1])
+     with col3:
+-        fig_gdp_per_capita, ax_gdp_per_capita = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_per_capita, ax_gdp_per_capita = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='gdp_per_capita', bins=10, ax=ax_gdp_per_capita, color='royalblue', kde = True)
+         ax_gdp_per_capita.set_title(f'Distribution of GDP Per Capita for {region_name}')
+         ax_gdp_per_capita.set_xlabel('GDP Per Capita [$]')
+         ax_gdp_per_capita.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_per_capita)
+ 
+     with col4:
+-        fig_gdp_per_capita_bp, ax_gdp_per_capita_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_per_capita_bp, ax_gdp_per_capita_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='gdp_per_capita', ax=ax_gdp_per_capita_bp, color='royalblue')
+         ax_gdp_per_capita_bp.set_title(f'GDP Per Capita for region {region_name}, a boxplot representation')
+         ax_gdp_per_capita_bp.set_xlabel('')
+         ax_gdp_per_capita_bp.set_ylabel('GDP Per Capita [$]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_per_capita_bp)
+ 
+     # --------------------End of histogram and box plots for GDP Per Capita ----------------------------#
+ 
+     # -----------Overlay plot for the distribution of gdp vs gdp_per_capita (existing plot)-------------#
+-    fig_gdp_gdp_capita, ax1 = plt.pyplot.subplots(figsize=(14, 7))  # Create a figure and a primary axes
++    fig_gdp_gdp_capita, ax1 = plt.subplots(figsize=(14, 7))  # Create a figure and a primary axes
+ 
+     # Plot GDP on the first y-axis
+     df_region_sorted_gdp = df_region.sort_values('gdp', ascending = False)
+@@ -115,7 +115,7 @@
+     ax2.tick_params(axis='y', labelcolor='royalblue')
+ 
+     # Add title and combined legends
+-    plt.pyplot.title(f'GDP vs. GDP per Capita for countries in {region_name} ')
++    plt.title(f'GDP vs. GDP per Capita for countries in {region_name} ')
+     fig_gdp_gdp_capita.tight_layout()  # Adjust layout to prevent labels from overlapping
+ 
+     # Combine legends from both axes
+@@ -130,21 +130,21 @@
+     # --------------------Create histograms for GDP growth and pop growth------------------#
+     col5, col6 = st.columns([1, 1])
+     with col5:
+-        fig_gdp_growth, ax_gdp_growth = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_growth, ax_gdp_growth = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='gdp_growth', bins=10, ax=ax_gdp_growth, color='lightgreen', kde = True)
+         ax_gdp_growth.set_title(f'Distribution of GDP Growth for {region_name}')
+         ax_gdp_growth.set_xlabel('GDP Growth[%]')
+         ax_gdp_growth.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_growth)
+ 
+     with col6:
+-        fig_pop_growth, ax_pop_growth = plt.pyplot.subplots(figsize=(8, 6))
++        fig_pop_growth, ax_pop_growth = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='pop_growth', bins=10, ax=ax_pop_growth, color='lightgrey', kde = True)
+         ax_pop_growth.set_title(f'Distribution of Population Growth for {region_name}')
+         ax_pop_growth.set_xlabel('Population Growth[%]')
+         ax_pop_growth.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_pop_growth)
+ 
+     # ---------------End of histogram plots for GDP Growth and Population Growth Per Capita ---------------#
+@@ -154,7 +154,7 @@
+     df_growth_unified = df_region[['gdp_growth', 'pop_growth']].melt(var_name='Growth_Type',
+                                                                        value_name='Growth_Value')
+ 
+-    fig_growth_bp, ax_growth_bp = plt.pyplot.subplots(figsize=(14, 7))
++    fig_growth_bp, ax_growth_bp = plt.subplots(figsize=(14, 7))
+     sns.boxplot(data=df_growth_unified, x='Growth_Type', y='Growth_Value', hue='Growth_Type',
+                 palette={'gdp_growth': 'lightgreen', 'pop_growth': 'lightgrey'}, ax=ax_growth_bp, legend=False)
+ 
+@@ -163,28 +163,28 @@
+     ax_growth_bp.set_ylabel('Growth Rate [%]')
+     ax_growth_bp.set_xticks([0, 1])  # Explicitly set tick locations
+     ax_growth_bp.set_xticklabels(['GDP Growth', 'Population Growth'])  # Set custom x-axis labels
+-    plt.pyplot.tight_layout()
++    plt.tight_layout()
+     st.pyplot(fig_growth_bp)
+     # ----------------------------End of Boxplot for gdp_growth and pop_growth---------------------------#
+ 
+     # ----------------------------Create histogram and box plot for Fertility----------------------------#
+     col7, col8 = st.columns([1, 1])
+     with col7:
+-        fig_fertility_rate, ax_fertility_rate = plt.pyplot.subplots(figsize=(8, 6))
++        fig_fertility_rate, ax_fertility_rate = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='fertility', bins=5, ax=ax_fertility_rate, color='gold', kde = True)
+         ax_fertility_rate.set_title(f'Distribution of fertility rate for {region_name}')
+         ax_fertility_rate.set_xlabel('Ferility rate [Average number of children per woman]')
+         ax_fertility_rate.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_fertility_rate)
+ 
+     with col8:
+-        fig_fertility_rate_bp, ax_fertility_rate_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_fertility_rate_bp, ax_fertility_rate_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='fertility', ax=ax_fertility_rate_bp, color='gold')
+         ax_fertility_rate_bp.set_title(f'Fertility for countries in {region_name}, a boxplot representation')
+         ax_fertility_rate_bp.set_xlabel('')
+         ax_fertility_rate_bp.set_ylabel('Fertility [Average number of children per woman]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_fertility_rate_bp)
+ 
+     # -----------------------------End of histogram and box plots for Fertility--------------------------#
+@@ -193,7 +193,7 @@
+     df_employment_unified = df_region[['employment_industry', 'employment_agriculture', 'employment_services',
+                                           'employment_other']].melt(var_name='Employment_Sectors',value_name='Sector_Portion')
+ 
+-    fig_employment_bp, ax_employment_bp = plt.pyplot.subplots(figsize=(14, 7))
++    fig_employment_bp, ax_employment_bp = plt.subplots(figsize=(14, 7))
+     sns.boxplot(data=df_employment_unified, x='Employment_Sectors', y='Sector_Portion', hue='Employment_Sectors',
+                 palette={'employment_industry': 'lightgrey', 'employment_agriculture': 'lightgreen',
+                          'employment_services': 'magenta','employment_other': 'gold' }, ax=ax_employment_bp, legend=False)
+@@ -203,7 +203,7 @@
+     ax_employment_bp.set_ylabel('Sector Portion [%]')
+     ax_employment_bp.set_xticks([0, 1, 2, 3])  # Explicitly set tick locations
+     ax_employment_bp.set_xticklabels(['employment_industry', 'employment_agriculture', 'employment_services','employment_other' ])  # Set custom x-axis labels
+-    plt.pyplot.tight_layout()
++    plt.tight_layout()
+     st.pyplot(fig_employment_bp)
+ 
+     # -------------------------------End of Box plot for employment sectors-----------------------------#
+@@ -212,21 +212,21 @@
+     # ----------------------------Create histogram and box plot for unemployment rate---------------------------------#
+     col9, col10 = st.columns([1, 1])
+     with col9:
+-        fig_unemployment, ax_unemployment = plt.pyplot.subplots(figsize=(8, 6))
++        fig_unemployment, ax_unemployment = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='unemployment', bins=10, ax=ax_unemployment, color='orange', kde = True)
+         ax_unemployment.set_title(f'Distribution of unemployment rate for countries in {region_name}')
+         ax_unemployment.set_xlabel('Unemployment Rate [%]')
+         ax_unemployment.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_unemployment)
+ 
+     with col10:
+-        fig_unemployment_bp, ax_unemployment_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_unemployment_bp, ax_unemployment_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='unemployment', ax=ax_unemployment_bp, color='orange')
+         ax_unemployment_bp.set_title(f'Unemployment rate for countries in {region_name}, a boxplot representation')
+         ax_unemployment_bp.set_xlabel('')
+         ax_unemployment_bp.set_ylabel('Unemployment Rate [%]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_unemployment_bp)
+ 
+     # ----------------------------End of histogram and box plot for unemployment---------------------------- #
+@@ -234,21 +234,21 @@
+     # ----------------------------Create histogram and box plot for sex ratio---------------------------------#
+     col11, col12 = st.columns([1, 1])
+     with col11:
+-        fig_sex_ratio, ax_sex_ratio = plt.pyplot.subplots(figsize=(8, 6))
++        fig_sex_ratio, ax_sex_ratio = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='sex_ratio', bins=10, ax=ax_sex_ratio, color='lightsalmon', kde = True)
+         ax_sex_ratio.set_title(f'Distribution of sex ratio for countries in {region_name}')
+         ax_sex_ratio.set_xlabel('sex ratio [males per 100 females]')
+         ax_sex_ratio.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_sex_ratio)
+ 
+     with col12:
+-        fig_sex_ratio_bp, ax_sex_ratio_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_sex_ratio_bp, ax_sex_ratio_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='sex_ratio', ax=ax_sex_ratio_bp, color='lightsalmon')
+         ax_sex_ratio_bp.set_title(f'Distribution of sex ratio for countries in {region_name}, a boxplot representation')
+         ax_sex_ratio_bp.set_xlabel('')
+         ax_sex_ratio_bp.set_ylabel('sex ratio [males per 100 females]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_sex_ratio_bp)
+ 
+     # ----------------------------End of histogram and box plot for sex ratio---------------------------- #
+@@ -274,7 +274,7 @@
+             lambda x: 'Female' if 'female' in x else 'Male')
+ 
+     # Create the violin plot
+-        fig_enrollment, ax_enrollment = plt.pyplot.subplots(figsize=(8, 6))
++        fig_enrollment, ax_enrollment = plt.subplots(figsize=(8, 6))
+         sns.violinplot(x='Enrollment_Type', y='Enrollment_Value', hue='Gender', data=df_school_enrollment_unified_violin, split=True,
+                        ax=ax_enrollment, palette={'Female': 'magenta', 'Male': 'orange'})
+ 
+@@ -308,7 +308,7 @@
+         for i in range(num_categories - 1):
+             ax_enrollment.axvline(x=i + 0.5, color='gray', linestyle='--', linewidth=0.8)
+ 
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_enrollment)
+ 
+ 
+@@ -329,7 +329,7 @@
+             lambda x: 'Female' if 'female' in x else 'Male')
+ 
+     # Create the violin plot
+-        fig_life_expectancy, ax_life_expectancy = plt.pyplot.subplots(figsize=(8, 6))
++        fig_life_expectancy, ax_life_expectancy = plt.subplots(figsize=(8, 6))
+         sns.violinplot(x='Category', y='Life_Expectancy_Value', hue='Gender', data=df_life_expectancy_unified_violin,
+                        split=True, ax=ax_life_expectancy, palette={'Female': 'magenta', 'Male': 'orange'})
+ 
+@@ -338,28 +338,28 @@
+         ax_life_expectancy.set_ylabel('Life Expectancy [Years]')
+         ax_life_expectancy.legend(title='Gender')
+ 
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_life_expectancy)
+     # ----------------  End of Violin plots for school enrollment and life expectancy by gender-----------------------#
+ 
+     # -----------------------------Create histogram and box plot for Infant Mortality---------------------------------#
+     col19, col20 = st.columns([1, 1])
+     with col19:
+-        fig_infant_mortality, ax_infant_mortality = plt.pyplot.subplots(figsize=(8, 6))
++        fig_infant_mortality, ax_infant_mortality = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='infant_mortality', bins=10, ax=ax_infant_mortality, color='red', kde = True)
+         ax_infant_mortality.set_title(f'Distribution of infant mortality for countries in {region_name}')
+         ax_infant_mortality.set_xlabel('Infant Mortality Rate [per 1000 live births]')
+         ax_infant_mortality.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_infant_mortality)
+ 
+     with col20:
+-        fig_infant_mortality_bp, ax_infant_mortality_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_infant_mortality_bp, ax_infant_mortality_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='infant_mortality', ax=ax_infant_mortality_bp, color='red')
+         ax_infant_mortality_bp.set_title(f'Distribution of infant mortality for countries in {region_name}, a boxplot representation')
+         ax_infant_mortality_bp.set_xlabel('')
+         ax_infant_mortality_bp.set_ylabel('Infant Mortality Rate [per 1000 live births]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_infant_mortality_bp)
+ 
+     # ----------------------------End of histogram and box plot for Infant Mortality----------------------- #
+@@ -367,21 +367,21 @@
+     # ----------------------------Create histogram and box plot for CO2 Emissions---------------------------#
+     col21, col22 = st.columns([1, 1])
+     with col21:
+-        fig_co2_emissions, ax_co2_emissions = plt.pyplot.subplots(figsize=(8, 6))
++        fig_co2_emissions, ax_co2_emissions = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='co2_emissions', bins=10, ax=ax_co2_emissions, color='cyan', kde = True)
+         ax_co2_emissions.set_title(f'Distribution of co2 emissions for countries in {region_name}')
+         ax_co2_emissions.set_xlabel('CO2 emissions [Millions of metric tons]')
+         ax_co2_emissions.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_co2_emissions)
+ 
+     with col22:
+-        fig_co2_emissions_bp, ax_co2_emissions_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_co2_emissions_bp, ax_co2_emissions_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='co2_emissions', ax=ax_co2_emissions_bp, color='cyan')
+         ax_co2_emissions_bp.set_title(f'Distribution of co2 emissions for countries in {region_name}, a boxplot representation')
+         ax_co2_emissions_bp.set_xlabel('')
+         ax_co2_emissions_bp.set_ylabel('CO2 emissions [Millions of metric tons]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_co2_emissions_bp)
+ 
+     # ----------------------------End of histogram and box plot for CO2 Emissions----------------------- #
+@@ -389,21 +389,21 @@
+     # ----------------------------Create histogram and box plot on Tourists-----------------------------#
+     col23, col24 = st.columns([1, 1])
+     with col23:
+-        fig_tourists, ax_tourists = plt.pyplot.subplots(figsize=(8, 6))
++        fig_tourists, ax_tourists = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='tourists', bins=10, ax=ax_tourists, color='salmon', kde = True)
+         ax_tourists.set_title(f'Distribution data on number tourists for countries in {region_name}')
+         ax_tourists.set_xlabel('Number of Tourists [In Thousands]')
+         ax_tourists.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_tourists)
+ 
+     with col24:
+-        fig_tourists_bp, ax_tourists_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_tourists_bp, ax_tourists_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='tourists', ax=ax_tourists_bp, color='salmon')
+         ax_tourists_bp.set_title(f'Distribution data on number tourists for countries in {region_name}, a boxplot representation')
+         ax_tourists_bp.set_xlabel('')
+         ax_tourists_bp.set_ylabel('Number of Tourists [In Thousands]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_tourists_bp)
+ 
+     # ----------------------------End of histogram and box plot on Tourists----------------------- #
+@@ -412,21 +412,21 @@
+     # --------------------------Create histogram and box plot on Homicide rate---------------------#
+     col25, col26 = st.columns([1, 1])
+     with col25:
+-        fig_homicide_rate, ax_homicide_rate = plt.pyplot.subplots(figsize=(8, 6))
++        fig_homicide_rate, ax_homicide_rate = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_region, x='homicide_rate', bins=10, ax=ax_homicide_rate, color='red', kde = True)
+         ax_homicide_rate.set_title(f'Distribution of homicide rate for countries in {region_name}')
+         ax_homicide_rate.set_xlabel('Homicide rate [%]')
+         ax_homicide_rate.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_homicide_rate)
+ 
+     with col26:
+-        fig_homicide_rate_bp, ax_homicide_rate_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_homicide_rate_bp, ax_homicide_rate_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_region, x='region', y='homicide_rate', ax=ax_homicide_rate_bp, color='red')
+         ax_homicide_rate_bp.set_title(f'Distribution of homicide rate for countries in {region_name}, a boxplot representation')
+         ax_homicide_rate_bp.set_xlabel('')
+         ax_homicide_rate_bp.set_ylabel('Homicide rate [%]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_homicide_rate_bp)
+ 
+     # ----------------------------End of histogram and box plot on Homicide rate----------------------- #
+@@ -437,21 +437,21 @@
+     df_refugees_extended['refugees_portion'] = (df_refugees_extended.refugees/df_refugees_extended.population)*100
+     col27, col28 = st.columns([1, 1])
+     with col27:
+-        fig_refugees_portion, ax_refugees_portion = plt.pyplot.subplots(figsize=(8, 6))
++        fig_refugees_portion, ax_refugees_portion = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_refugees_extended, x='refugees_portion', bins=10, ax=ax_refugees_portion, color='purple', kde = True)
+         ax_refugees_portion.set_title(f'Distribution of refugees portion from total population for countries in {region_name}')
+         ax_refugees_portion.set_xlabel('refugees_portion [%]')
+         ax_refugees_portion.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_refugees_portion)
+ 
+     with col28:
+-        fig_refugees_portion_bp, ax_refugees_portion_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_refugees_portion_bp, ax_refugees_portion_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_refugees_extended, x='region', y='refugees_portion', ax=ax_refugees_portion_bp, color='purple')
+         ax_refugees_portion_bp.set_title(f'Distribution of refugees portion from total population for countries in {region_name}, a boxplot representation')
+         ax_refugees_portion_bp.set_xlabel('')
+         ax_refugees_portion_bp.set_ylabel('refugees_portion [%]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_refugees_portion_bp)
+ 
+     # ----------------------------End of histogram and box plot on refugees portion----------------------- #
+Index: Units_Txt.py
+===================================================================
+diff --git a/Units_Txt.py b/src/algo/Units_Txt.py
+rename from Units_Txt.py
+rename to src/algo/Units_Txt.py
+--- a/Units_Txt.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Units_Txt.py	(date 1790173887558)
+@@ -1,62 +1,89 @@
+-def units_txt():
+-    import pandas as pd
+-    df = pd.DataFrame(columns=['var', 'explain','units'])
++import pandas as pd
++def units_txt():
++
++    df = pd.DataFrame(columns=['var', 'explain','units','category'])
+     df.loc[0, 'var'] = 'gdp per capita'
+     df.loc[0, 'explain'] = 'Gross Domestic Product ($/person)'
++    df.loc[0, 'category'] = 'Economics'
+     df.loc[1, 'var'] = 'gdp growth'
+     df.loc[1, 'explain'] = 'GDP growth rate is measured as a percentage (%) change'
++    df.loc[1, 'category'] = 'Economics'
+     df.loc[2, 'var'] = 'sex ratio'
+     df.loc[ 2, 'explain'] = ('the proportion of males to females in a population, '
+                          'expressed as the number of males for every 100 females')
++    df.loc[2, 'category'] = 'Population'
+     df.loc[3, 'var'] = 'unemployment'
+     df.loc[3, 'explain'] = 'The percentage of unemployed people (%)'
++    df.loc[3, 'category'] = 'Economics'
+     df.loc[4, 'var'] = 'homicide rate'
+     df.loc[4, 'explain'] = 'number of homicide per 100,000 population per year'
++    df.loc[4, 'category'] = 'Health'
+     df.loc[5, 'var'] = 'urban population'
+     df.loc[5, 'explain'] = 'Percentage(%) of people living in urban areas'
++    df.loc[5, 'category'] = 'Population'
+     df.loc[6, 'var'] = 'urban population growth'
+     df.loc[6, 'explain'] = 'Annual percentage growth of people living in urban areas'
++    df.loc[6, 'category'] = 'Population'
+     df.loc[7, 'var'] = 'employment agriculture'
+     df.loc[7, 'explain'] = 'Percentage (%) of a nation''s active workforce engaged in Agriculture,'
++    df.loc[7, 'category'] = 'Economics'
+     df.loc[8, 'var'] = 'employment industry'
+     df.loc[8, 'explain'] = 'Percentage (%) of a nation''s active workforce engaged in Industry'
++    df.loc[8, 'category'] = 'Economics'
+     df.loc[9, 'var'] = 'employment services'
+     df.loc[9, 'explain'] = 'Percentage (%) of a nation''s active workforce engaged in Services'
++    df.loc[9, 'category'] = 'Economics'
+     df.loc[10, 'var'] = 'pop growth'
+     df.loc[10, 'explain'] = 'Annual population percentage(%) change'
++    df.loc[10, 'category'] = 'Population'
+     df.loc[11, 'var'] = 'infant mortality'
+     df.loc[11, 'explain'] = 'the number of resident infant deaths under one year of age per 1000 live births'
++    df.loc[11, 'category'] = 'Health'
+     df.loc[12, 'var'] = 'fertility'
+     df.loc[12, 'explain'] = 'Average number of live births per woman over her lifetime'
++    df.loc[12, 'category'] = 'Population'
+     df.loc[13, 'var'] = 'pop density'
+     df.loc[13, 'explain'] = 'Persons per square Km (person/Km^2)'
++    df.loc[13, 'category'] = 'Population'
+     df.loc[14, 'var'] = 'life expectancy female'
+     df.loc[14, 'explain'] = 'average female life expectancy in years'
++    df.loc[14, 'category'] = 'Health'
+     df.loc[15, 'var'] = 'life expectancy male'
+     df.loc[15, 'explain'] = 'average male life expectancy in years'
++    df.loc[15, 'category'] = 'Health'
+     df.loc[16, 'var'] = 'primary school enrollment male'
+     df.loc[16, 'explain'] = 'Percentage (%) of the official primary school-age male population'
++    df.loc[16, 'category'] = 'Education'
+     df.loc[17, 'var'] = 'primary school enrollment female'
+     df.loc[17, 'explain'] = 'Percentage (%) of the official primary school-age female population'
++    df.loc[17, 'category'] = 'Education'
+     df.loc[18, 'var'] = 'secondary school enrollment male'
+     df.loc[18, 'explain'] = 'Percentage (%) of the official secondary school-age male population'
++    df.loc[18, 'category'] = 'Education'
+     df.loc[19, 'var'] = 'secondary school enrollment female'
+     df.loc[19, 'explain'] = 'Percentage (%) of the official secondary school-age female population'
++    df.loc[19, 'category'] = 'Education'
+     df.loc[20, 'var'] = 'refugees per capita'
+     df.loc[20, 'explain'] = 'refugees per resident'
++    df.loc[20, 'category'] = 'Economics'
+     df.loc[21, 'var'] = 'tourists per capita'
+     df.loc[21, 'explain'] = 'tourists per resident'
++    df.loc[21, 'category'] = 'Economics'
+     df.loc[22, 'var'] = 'internet users'
+     df.loc[22, 'explain'] = 'Percentage(%) of internet users (ages 15-74)'
++    df.loc[22, 'category'] = 'Economics'
+     df.loc[23, 'var'] = 'co2 emissions per capita'
++    df.loc[23, 'category'] = 'Health'
+     df.loc[23, 'explain'] = 'CO2 emissions per capita are measured in tonnes of carbon dioxide per person per year (tCO₂/capita/year)'
+     df.loc[24, 'var'] = 'forested area'
+     df.loc[24, 'explain'] = 'Percentage(%) of forested area out of total land area'
++    df.loc[24, 'category'] = 'Health'
+     df.loc[25, 'var'] = 'imports per capita'
+     df.loc[25, 'explain'] = 'imports per capita measured in $/person'
++    df.loc[25, 'category'] = 'Economics'
+     df.loc[26, 'var'] = 'exports per capita'
+     df.loc[26, 'explain'] = 'exports per capita easured in $/person'
+-
++    df.loc[26, 'category'] = 'Economics'
+     country_columns = ['gdp',
+                        'sex_ratio',
+                        'surface_area',
+@@ -90,4 +117,5 @@
+                        'employment_services',
+                        'imports',
+                        'exports']
++
+     return df
+Index: import_country_data.py
+===================================================================
+diff --git a/import_country_data.py b/src/algo/import_country_data.py
+rename from import_country_data.py
+rename to src/algo/import_country_data.py
+--- a/import_country_data.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/import_country_data.py	(date 1790174061145)
+@@ -1,12 +1,12 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ def import_country_data(filename):
+     with open(".streamlit/secrets.toml", "rb") as f:
+         config = tomllib.load(f)
+     # print(config['api_key'])
+ 
+-    country_data = pd.read_csv('countries.csv')
++    country_data = pd.read_csv('data/countries.csv')
+     country_data.set_index('Country', inplace=True)
+     country_data['flag_url']= ""
+     country_columns = ['gdp',
+Index: libs_and_modules.py
+===================================================================
+diff --git a/libs_and_modules.py b/src/infra/libs_and_modules.py
+rename from libs_and_modules.py
+rename to src/infra/libs_and_modules.py
+--- a/libs_and_modules.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/infra/libs_and_modules.py	(date 1790173533002)
+@@ -22,7 +22,7 @@
+ import pandas as pd
+ import numpy as ny
+ import seaborn as sns
+-import matplotlib as plt
++import matplotlib.pyplot as plt
+ import plotly as px
+ import streamlit as st
+ import requests
+Index: Correlation_Matrix.py
+===================================================================
+diff --git a/Correlation_Matrix.py b/src/algo/Correlation_Matrix.py
+rename from Correlation_Matrix.py
+rename to src/algo/Correlation_Matrix.py
+--- a/Correlation_Matrix.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Correlation_Matrix.py	(date 1790174945025)
+@@ -2,7 +2,7 @@
+ #from matplotlib import pyplot as plt
+ 
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ def correlation_matrix(country_data):
+ 
+@@ -19,9 +19,9 @@
+         if col in exclude_col or not isinstance(df.loc[df.index[0],col],float):
+             df.drop(columns=[col],inplace=True)
+     matrix = abs(df.corr())
+-    # Lior Sinay 10/09/26 - Replaced plt with plt.pyplot
++    # Lior Sinay 10/09/26 - Replaced plt with plt
+     #fig, ax = plt.subplots()
+-    fig, ax = plt.pyplot.subplots()
++    fig, ax = plt.subplots()
+     sns.heatmap(matrix,ax=ax)
+     return fig,matrix
+ 
+@@ -36,9 +36,9 @@
+                         val = matrix.loc[row, col]
+                         if val > threshold and col != row:
+                             if ng % n_subg == 0:
+-                                #Lior Sinay 10/09/2026 - plt replaced with plt.pyplot
++                                #Lior Sinay 10/09/2026 - plt replaced with plt
+                                 #fig, axes = plt.subplots(2, 2, figsize=[12, 5])
+-                                fig, axes = plt.pyplot.subplots(2, 2, figsize=[12, 5])
++                                fig, axes = plt.subplots(2, 2, figsize=[12, 5])
+                                 axes = axes.flatten()
+                             axc = axes[ng % n_subg]
+                             axc.scatter(country_data[row], country_data[col],s=5)
+Index: Intra_continent_functions.py
+===================================================================
+diff --git a/Intra_continent_functions.py b/src/algo/Intra_continent_functions.py
+rename from Intra_continent_functions.py
+rename to src/algo/Intra_continent_functions.py
+--- a/Intra_continent_functions.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Intra_continent_functions.py	(date 1790174690178)
+@@ -1,5 +1,5 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ # ---------------------------------------------------------------------------------------------------------------------#
+ # Function: run_intra_continent_analysis                                                                               #
+@@ -14,7 +14,7 @@
+     continent_name = df_continent.Continent.iloc[0]
+     country_list = list(df_continent.index) # List of countries that are specified for the selected continent
+     # Open the Intra continent analysis log file
+-    log_file = open('intra_continent_functions_log.txt', 'a+')
++    log_file = open('output/intra_continent_functions_log.txt', 'a+')
+     log_file.write(f'Log for continent {continent_name} opened at: {dt.datetime.now(zi.ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H:%M:%S")} Jerusalm time. '
+                    f'UTC time is {dt.datetime.now(zi.ZoneInfo("UTC")).strftime("%Y-%m-%d %H:%M:%S")}\n')
+     log_file.write(f'#--------------------------------------------------------------------------------------------------------------------------------------------#\n')
+@@ -52,21 +52,21 @@
+     #-------------------------Create histogram and box plot for GDP----------------------#
+     col1, col2 = st.columns([1, 1])
+     with col1:
+-        fig_gdp, ax_gdp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp, ax_gdp = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='gdp', bins=10, ax=ax_gdp, color='green', kde = True)
+         ax_gdp.set_title(f'Distribution of GDP for {continent_name}')
+         ax_gdp.set_xlabel('GDP [Millions of $]')
+         ax_gdp.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp)
+ 
+     with col2:
+-        fig_gdp_bp, ax_gdp_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_bp, ax_gdp_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='gdp', ax=ax_gdp_bp, color='green')
+         ax_gdp_bp.set_title(f'GDP for continent {continent_name}, a boxplot representation')
+         ax_gdp_bp.set_xlabel('')
+         ax_gdp_bp.set_ylabel('GDP [Millions of $]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_bp)
+ 
+     # ----------------------End of histogram and box plots for GDP --------------------------- #
+@@ -74,27 +74,27 @@
+     # -------------------Create histogram and box plot for GDP Per Capita----------------------#
+     col3, col4 = st.columns([1, 1])
+     with col3:
+-        fig_gdp_per_capita, ax_gdp_per_capita = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_per_capita, ax_gdp_per_capita = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='gdp_per_capita', bins=10, ax=ax_gdp_per_capita, color='royalblue', kde = True)
+         ax_gdp_per_capita.set_title(f'Distribution of GDP Per Capita for {continent_name}')
+         ax_gdp_per_capita.set_xlabel('GDP Per Capita [$]')
+         ax_gdp_per_capita.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_per_capita)
+ 
+     with col4:
+-        fig_gdp_per_capita_bp, ax_gdp_per_capita_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_per_capita_bp, ax_gdp_per_capita_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='gdp_per_capita', ax=ax_gdp_per_capita_bp, color='royalblue')
+         ax_gdp_per_capita_bp.set_title(f'GDP Per Capita for continent {continent_name}, a boxplot representation')
+         ax_gdp_per_capita_bp.set_xlabel('')
+         ax_gdp_per_capita_bp.set_ylabel('GDP Per Capita [$]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_per_capita_bp)
+ 
+     # --------------------End of histogram and box plots for GDP Per Capita ----------------------------#
+ 
+     # -----------Overlay plot for the distribution of gdp vs gdp_per_capita (existing plot)-------------#
+-    fig_gdp_gdp_capita, ax1 = plt.pyplot.subplots(figsize=(14, 7))  # Create a figure and a primary axes
++    fig_gdp_gdp_capita, ax1 = plt.subplots(figsize=(14, 7))  # Create a figure and a primary axes
+ 
+     # Plot GDP on the first y-axis
+     df_continent_sorted_gdp = df_continent.sort_values('gdp', ascending = False)
+@@ -115,7 +115,7 @@
+     ax2.tick_params(axis='y', labelcolor='royalblue')
+ 
+     # Add title and combined legends
+-    plt.pyplot.title(f'GDP vs. GDP per Capita for countries in {continent_name} ')
++    plt.title(f'GDP vs. GDP per Capita for countries in {continent_name} ')
+     fig_gdp_gdp_capita.tight_layout()  # Adjust layout to prevent labels from overlapping
+ 
+     # Combine legends from both axes
+@@ -130,21 +130,21 @@
+     # --------------------Create histograms for GDP growth and pop growth------------------#
+     col5, col6 = st.columns([1, 1])
+     with col5:
+-        fig_gdp_growth, ax_gdp_growth = plt.pyplot.subplots(figsize=(8, 6))
++        fig_gdp_growth, ax_gdp_growth = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='gdp_growth', bins=10, ax=ax_gdp_growth, color='lightgreen', kde = True)
+         ax_gdp_growth.set_title(f'Distribution of GDP Growth for {continent_name}')
+         ax_gdp_growth.set_xlabel('GDP Growth[%]')
+         ax_gdp_growth.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_gdp_growth)
+ 
+     with col6:
+-        fig_pop_growth, ax_pop_growth = plt.pyplot.subplots(figsize=(8, 6))
++        fig_pop_growth, ax_pop_growth = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='pop_growth', bins=10, ax=ax_pop_growth, color='lightgrey', kde = True)
+         ax_pop_growth.set_title(f'Distribution of Population Growth for {continent_name}')
+         ax_pop_growth.set_xlabel('Population Growth[%]')
+         ax_pop_growth.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_pop_growth)
+ 
+     # ---------------End of histogram plots for GDP Growth and Population Growth Per Capita ---------------#
+@@ -154,7 +154,7 @@
+     df_growth_unified = df_continent[['gdp_growth', 'pop_growth']].melt(var_name='Growth_Type',
+                                                                        value_name='Growth_Value')
+ 
+-    fig_growth_bp, ax_growth_bp = plt.pyplot.subplots(figsize=(14, 7))
++    fig_growth_bp, ax_growth_bp = plt.subplots(figsize=(14, 7))
+     sns.boxplot(data=df_growth_unified, x='Growth_Type', y='Growth_Value', hue='Growth_Type',
+                 palette={'gdp_growth': 'lightgreen', 'pop_growth': 'lightgrey'}, ax=ax_growth_bp, legend=False)
+ 
+@@ -163,28 +163,28 @@
+     ax_growth_bp.set_ylabel('Growth Rate [%]')
+     ax_growth_bp.set_xticks([0, 1])  # Explicitly set tick locations
+     ax_growth_bp.set_xticklabels(['GDP Growth', 'Population Growth'])  # Set custom x-axis labels
+-    plt.pyplot.tight_layout()
++    plt.tight_layout()
+     st.pyplot(fig_growth_bp)
+     # ----------------------------End of Boxplot for gdp_growth and pop_growth---------------------------#
+ 
+     # ----------------------------Create histogram and box plot for Fertility----------------------------#
+     col7, col8 = st.columns([1, 1])
+     with col7:
+-        fig_fertility_rate, ax_fertility_rate = plt.pyplot.subplots(figsize=(8, 6))
++        fig_fertility_rate, ax_fertility_rate = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='fertility', bins=5, ax=ax_fertility_rate, color='gold', kde = True)
+         ax_fertility_rate.set_title(f'Distribution of fertility rate for {continent_name}')
+         ax_fertility_rate.set_xlabel('Ferility rate [Average number of children per woman]')
+         ax_fertility_rate.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_fertility_rate)
+ 
+     with col8:
+-        fig_fertility_rate_bp, ax_fertility_rate_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_fertility_rate_bp, ax_fertility_rate_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='fertility', ax=ax_fertility_rate_bp, color='gold')
+         ax_fertility_rate_bp.set_title(f'Fertility for countries in {continent_name}, a boxplot representation')
+         ax_fertility_rate_bp.set_xlabel('')
+         ax_fertility_rate_bp.set_ylabel('Fertility [Average number of children per woman]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_fertility_rate_bp)
+ 
+     # -----------------------------End of histogram and box plots for Fertility--------------------------#
+@@ -193,7 +193,7 @@
+     df_employment_unified = df_continent[['employment_industry', 'employment_agriculture', 'employment_services',
+                                           'employment_other']].melt(var_name='Employment_Sectors',value_name='Sector_Portion')
+ 
+-    fig_employment_bp, ax_employment_bp = plt.pyplot.subplots(figsize=(14, 7))
++    fig_employment_bp, ax_employment_bp = plt.subplots(figsize=(14, 7))
+     sns.boxplot(data=df_employment_unified, x='Employment_Sectors', y='Sector_Portion', hue='Employment_Sectors',
+                 palette={'employment_industry': 'lightgrey', 'employment_agriculture': 'lightgreen',
+                          'employment_services': 'magenta','employment_other': 'gold' }, ax=ax_employment_bp, legend=False)
+@@ -203,7 +203,7 @@
+     ax_employment_bp.set_ylabel('Sector Portion [%]')
+     ax_employment_bp.set_xticks([0, 1, 2, 3])  # Explicitly set tick locations
+     ax_employment_bp.set_xticklabels(['employment_industry', 'employment_agriculture', 'employment_services','employment_other' ])  # Set custom x-axis labels
+-    plt.pyplot.tight_layout()
++    plt.tight_layout()
+     st.pyplot(fig_employment_bp)
+ 
+     # -------------------------------End of Box plot for employment sectors-----------------------------#
+@@ -212,21 +212,21 @@
+     # ----------------------------Create histogram and box plot for unemployment rate---------------------------------#
+     col9, col10 = st.columns([1, 1])
+     with col9:
+-        fig_unemployment, ax_unemployment = plt.pyplot.subplots(figsize=(8, 6))
++        fig_unemployment, ax_unemployment = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='unemployment', bins=10, ax=ax_unemployment, color='orange', kde = True)
+         ax_unemployment.set_title(f'Distribution of unemployment rate for countries in {continent_name}')
+         ax_unemployment.set_xlabel('Unemployment Rate [%]')
+         ax_unemployment.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_unemployment)
+ 
+     with col10:
+-        fig_unemployment_bp, ax_unemployment_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_unemployment_bp, ax_unemployment_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='unemployment', ax=ax_unemployment_bp, color='orange')
+         ax_unemployment_bp.set_title(f'Unemployment rate for countries in {continent_name}, a boxplot representation')
+         ax_unemployment_bp.set_xlabel('')
+         ax_unemployment_bp.set_ylabel('Unemployment Rate [%]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_unemployment_bp)
+ 
+     # ----------------------------End of histogram and box plot for unemployment---------------------------- #
+@@ -234,21 +234,21 @@
+     # ----------------------------Create histogram and box plot for sex ratio---------------------------------#
+     col11, col12 = st.columns([1, 1])
+     with col11:
+-        fig_sex_ratio, ax_sex_ratio = plt.pyplot.subplots(figsize=(8, 6))
++        fig_sex_ratio, ax_sex_ratio = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='sex_ratio', bins=10, ax=ax_sex_ratio, color='lightsalmon', kde = True)
+         ax_sex_ratio.set_title(f'Distribution of sex ratio for countries in {continent_name}')
+         ax_sex_ratio.set_xlabel('sex ratio [males per 100 females]')
+         ax_sex_ratio.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_sex_ratio)
+ 
+     with col12:
+-        fig_sex_ratio_bp, ax_sex_ratio_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_sex_ratio_bp, ax_sex_ratio_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='sex_ratio', ax=ax_sex_ratio_bp, color='lightsalmon')
+         ax_sex_ratio_bp.set_title(f'Distribution of sex ratio for countries in {continent_name}, a boxplot representation')
+         ax_sex_ratio_bp.set_xlabel('')
+         ax_sex_ratio_bp.set_ylabel('sex ratio [males per 100 females]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_sex_ratio_bp)
+ 
+     # ----------------------------End of histogram and box plot for sex ratio---------------------------- #
+@@ -274,7 +274,7 @@
+             lambda x: 'Female' if 'female' in x else 'Male')
+ 
+     # Create the violin plot
+-        fig_enrollment, ax_enrollment = plt.pyplot.subplots(figsize=(8, 6))
++        fig_enrollment, ax_enrollment = plt.subplots(figsize=(8, 6))
+         sns.violinplot(x='Enrollment_Type', y='Enrollment_Value', hue='Gender', data=df_school_enrollment_unified_violin, split=True,
+                        ax=ax_enrollment, palette={'Female': 'magenta', 'Male': 'orange'})
+ 
+@@ -308,7 +308,7 @@
+         for i in range(num_categories - 1):
+             ax_enrollment.axvline(x=i + 0.5, color='gray', linestyle='--', linewidth=0.8)
+ 
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_enrollment)
+ 
+ 
+@@ -329,7 +329,7 @@
+             lambda x: 'Female' if 'female' in x else 'Male')
+ 
+     # Create the violin plot
+-        fig_life_expectancy, ax_life_expectancy = plt.pyplot.subplots(figsize=(8, 6))
++        fig_life_expectancy, ax_life_expectancy = plt.subplots(figsize=(8, 6))
+         sns.violinplot(x='Category', y='Life_Expectancy_Value', hue='Gender', data=df_life_expectancy_unified_violin,
+                        split=True, ax=ax_life_expectancy, palette={'Female': 'magenta', 'Male': 'orange'})
+ 
+@@ -338,28 +338,28 @@
+         ax_life_expectancy.set_ylabel('Life Expectancy [Years]')
+         ax_life_expectancy.legend(title='Gender')
+ 
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_life_expectancy)
+     # ----------------  End of Violin plots for school enrollment and life expectancy by gender-----------------------#
+ 
+     # -----------------------------Create histogram and box plot for Infant Mortality---------------------------------#
+     col19, col20 = st.columns([1, 1])
+     with col19:
+-        fig_infant_mortality, ax_infant_mortality = plt.pyplot.subplots(figsize=(8, 6))
++        fig_infant_mortality, ax_infant_mortality = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='infant_mortality', bins=10, ax=ax_infant_mortality, color='red', kde = True)
+         ax_infant_mortality.set_title(f'Distribution of infant mortality for countries in {continent_name}')
+         ax_infant_mortality.set_xlabel('Infant Mortality Rate [per 1000 live births]')
+         ax_infant_mortality.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_infant_mortality)
+ 
+     with col20:
+-        fig_infant_mortality_bp, ax_infant_mortality_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_infant_mortality_bp, ax_infant_mortality_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='infant_mortality', ax=ax_infant_mortality_bp, color='red')
+         ax_infant_mortality_bp.set_title(f'Distribution of infant mortality for countries in {continent_name}, a boxplot representation')
+         ax_infant_mortality_bp.set_xlabel('')
+         ax_infant_mortality_bp.set_ylabel('Infant Mortality Rate [per 1000 live births]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_infant_mortality_bp)
+ 
+     # ----------------------------End of histogram and box plot for Infant Mortality----------------------- #
+@@ -367,21 +367,21 @@
+     # ----------------------------Create histogram and box plot for CO2 Emissions---------------------------#
+     col21, col22 = st.columns([1, 1])
+     with col21:
+-        fig_co2_emissions, ax_co2_emissions = plt.pyplot.subplots(figsize=(8, 6))
++        fig_co2_emissions, ax_co2_emissions = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='co2_emissions', bins=10, ax=ax_co2_emissions, color='cyan', kde = True)
+         ax_co2_emissions.set_title(f'Distribution of co2 emissions for countries in {continent_name}')
+         ax_co2_emissions.set_xlabel('CO2 emissions [Millions of metric tons]')
+         ax_co2_emissions.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_co2_emissions)
+ 
+     with col22:
+-        fig_co2_emissions_bp, ax_co2_emissions_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_co2_emissions_bp, ax_co2_emissions_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='co2_emissions', ax=ax_co2_emissions_bp, color='cyan')
+         ax_co2_emissions_bp.set_title(f'Distribution of co2 emissions for countries in {continent_name}, a boxplot representation')
+         ax_co2_emissions_bp.set_xlabel('')
+         ax_co2_emissions_bp.set_ylabel('CO2 emissions [Millions of metric tons]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_co2_emissions_bp)
+ 
+     # ----------------------------End of histogram and box plot for CO2 Emissions----------------------- #
+@@ -389,21 +389,21 @@
+     # ----------------------------Create histogram and box plot on Tourists-----------------------------#
+     col23, col24 = st.columns([1, 1])
+     with col23:
+-        fig_tourists, ax_tourists = plt.pyplot.subplots(figsize=(8, 6))
++        fig_tourists, ax_tourists = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='tourists', bins=10, ax=ax_tourists, color='salmon', kde = True)
+         ax_tourists.set_title(f'Distribution data on number tourists for countries in {continent_name}')
+         ax_tourists.set_xlabel('Number of Tourists [In Thousands]')
+         ax_tourists.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_tourists)
+ 
+     with col24:
+-        fig_tourists_bp, ax_tourists_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_tourists_bp, ax_tourists_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='tourists', ax=ax_tourists_bp, color='salmon')
+         ax_tourists_bp.set_title(f'Distribution data on number tourists for countries in {continent_name}, a boxplot representation')
+         ax_tourists_bp.set_xlabel('')
+         ax_tourists_bp.set_ylabel('Number of Tourists [In Thousands]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_tourists_bp)
+ 
+     # ----------------------------End of histogram and box plot on Tourists----------------------- #
+@@ -412,21 +412,21 @@
+     # --------------------------Create histogram and box plot on Homicide rate---------------------#
+     col25, col26 = st.columns([1, 1])
+     with col25:
+-        fig_homicide_rate, ax_homicide_rate = plt.pyplot.subplots(figsize=(8, 6))
++        fig_homicide_rate, ax_homicide_rate = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_continent, x='homicide_rate', bins=10, ax=ax_homicide_rate, color='red', kde = True)
+         ax_homicide_rate.set_title(f'Distribution of homicide rate for countries in {continent_name}')
+         ax_homicide_rate.set_xlabel('Homicide rate [%]')
+         ax_homicide_rate.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_homicide_rate)
+ 
+     with col26:
+-        fig_homicide_rate_bp, ax_homicide_rate_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_homicide_rate_bp, ax_homicide_rate_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_continent, x='Continent', y='homicide_rate', ax=ax_homicide_rate_bp, color='red')
+         ax_homicide_rate_bp.set_title(f'Distribution of homicide rate for countries in {continent_name}, a boxplot representation')
+         ax_homicide_rate_bp.set_xlabel('')
+         ax_homicide_rate_bp.set_ylabel('Homicide rate [%]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_homicide_rate_bp)
+ 
+     # ----------------------------End of histogram and box plot on Homicide rate----------------------- #
+@@ -437,21 +437,21 @@
+     df_refugees_extended['refugees_portion'] = (df_refugees_extended.refugees/df_refugees_extended.population)*100
+     col27, col28 = st.columns([1, 1])
+     with col27:
+-        fig_refugees_portion, ax_refugees_portion = plt.pyplot.subplots(figsize=(8, 6))
++        fig_refugees_portion, ax_refugees_portion = plt.subplots(figsize=(8, 6))
+         sns.histplot(data=df_refugees_extended, x='refugees_portion', bins=10, ax=ax_refugees_portion, color='purple', kde = True)
+         ax_refugees_portion.set_title(f'Distribution of refugees portion from total population for countries in {continent_name}')
+         ax_refugees_portion.set_xlabel('refugees_portion [%]')
+         ax_refugees_portion.set_ylabel('Number of Countries')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_refugees_portion)
+ 
+     with col28:
+-        fig_refugees_portion_bp, ax_refugees_portion_bp = plt.pyplot.subplots(figsize=(8, 6))
++        fig_refugees_portion_bp, ax_refugees_portion_bp = plt.subplots(figsize=(8, 6))
+         sns.boxplot(data=df_refugees_extended, x='Continent', y='refugees_portion', ax=ax_refugees_portion_bp, color='purple')
+         ax_refugees_portion_bp.set_title(f'Distribution of refugees portion from total population for countries in {continent_name}, a boxplot representation')
+         ax_refugees_portion_bp.set_xlabel('')
+         ax_refugees_portion_bp.set_ylabel('refugees_portion [%]')
+-        plt.pyplot.tight_layout()
++        plt.tight_layout()
+         st.pyplot(fig_refugees_portion_bp)
+ 
+     # ----------------------------End of histogram and box plot on refugees portion----------------------- #
+Index: Intra_country_functions.py
+===================================================================
+diff --git a/Intra_country_functions.py b/src/algo/Intra_country_functions.py
+rename from Intra_country_functions.py
+rename to src/algo/Intra_country_functions.py
+--- a/Intra_country_functions.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Intra_country_functions.py	(date 1790174945023)
+@@ -1,5 +1,5 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ # ---------------------------------------------------------------------------------------------------------------------#
+ # Function: run_intra_country_analysis                                                                                 #
+@@ -13,7 +13,7 @@
+ #----------------------------------------------------------------------------------------------------------------------#
+ def run_intra_country_analysis(country_row, country_all_columns ):
+     # Open the Intra country analysis log file
+-    log_file = open('intra_country_functions_log.txt', 'a+')
++    log_file = open('output/intra_country_functions_log.txt', 'a+')
+     log_file.write(f'Log opened at: {dt.datetime.now(zi.ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H:%M:%S")} Jerusalm time. '
+                    f'UTC time is {dt.datetime.now(zi.ZoneInfo("UTC")).strftime("%Y-%m-%d %H:%M:%S")}\n')
+     log_file.write(f'#------------------------------------------------------------------------------------------------------------#\n')
+@@ -191,7 +191,7 @@
+         if plots_column_allocation['imports_and_exports'] is not None:
+             with col1:
+                 plot_data_imports_exports = country_row.loc[country_name][['imports', 'exports']]
+-                fig_imports_exports, ax_imports_exports = plt.pyplot.subplots(figsize=(8, 5))
++                fig_imports_exports, ax_imports_exports = plt.subplots(figsize=(8, 5))
+                 plot_data_imports_exports.plot(kind='bar', ax=ax_imports_exports, color=['red', 'green'])
+ 
+                 ax_imports_exports.set_title('Imports vs. Exports ( Trade Balance )')
+@@ -199,8 +199,8 @@
+                 ax_imports_exports.set_xlabel('Indicator')
+                 ax_imports_exports.tick_params(axis='x', rotation=0)
+ 
+-                plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                plt.pyplot.tight_layout()
++                plt.grid(axis='y', linestyle='--', alpha=0.7)
++                plt.tight_layout()
+                 st.pyplot(fig_imports_exports)
+ 
+     #------------------End of bar plot for Imports vs. Exports ----------------------------#
+@@ -211,7 +211,7 @@
+             if ((col_num == 'col1') | (plots_column_allocation['imports_and_exports'] is None)):
+                 with col1:
+                     plot_data_gdp_pop = country_row.loc[country_name][['gdp_growth', 'pop_growth']]
+-                    fig_gdp_pop, ax_gdp_pop = plt.pyplot.subplots(figsize=(8, 5))
++                    fig_gdp_pop, ax_gdp_pop = plt.subplots(figsize=(8, 5))
+                     plot_data_gdp_pop.plot(kind='bar', ax=ax_gdp_pop, color=['lightgreen', 'yellow'])
+ 
+                     ax_gdp_pop.set_title('GDP Growth vs. Population Growth')
+@@ -219,14 +219,14 @@
+                     ax_gdp_pop.set_xlabel('Indicator')
+                     ax_gdp_pop.tick_params(axis='x', rotation=0)
+ 
+-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                    plt.pyplot.tight_layout()
++                    plt.grid(axis='y', linestyle='--', alpha=0.7)
++                    plt.tight_layout()
+                     st.pyplot(fig_gdp_pop)
+ 
+             else:
+                 with col2:
+                     plot_data_gdp_pop = country_row.loc[country_name][['gdp_growth', 'pop_growth']]
+-                    fig_gdp_pop, ax_gdp_pop = plt.pyplot.subplots(figsize=(8, 5))
++                    fig_gdp_pop, ax_gdp_pop = plt.subplots(figsize=(8, 5))
+                     plot_data_gdp_pop.plot(kind='bar', ax=ax_gdp_pop, color=['lightgreen', 'yellow'])
+ 
+                     ax_gdp_pop.set_title('GDP Growth vs. Population Growth')
+@@ -234,8 +234,8 @@
+                     ax_gdp_pop.set_xlabel('Indicator')
+                     ax_gdp_pop.tick_params(axis='x', rotation=0)
+ 
+-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                    plt.pyplot.tight_layout()
++                    plt.grid(axis='y', linestyle='--', alpha=0.7)
++                    plt.tight_layout()
+                     st.pyplot(fig_gdp_pop)
+ 
+     # ------------------End of bar plot for gdp growth vs. population growth-------------------#
+@@ -247,7 +247,7 @@
+         if plots_column_allocation['urban_pop_growth_vs_pop_growth'] is not None:
+             with col3:
+                 plot_data_urban_pg_vs_total_pg = country_row.loc[country_name][['urban_population_growth', 'pop_growth']]
+-                fig_urban_pg_vs_total_pg, ax_urban_pg_vs_total_pg = plt.pyplot.subplots(figsize=(8, 5))
++                fig_urban_pg_vs_total_pg, ax_urban_pg_vs_total_pg = plt.subplots(figsize=(8, 5))
+                 plot_data_urban_pg_vs_total_pg.plot(kind='bar', ax=ax_urban_pg_vs_total_pg, color=['red', 'green'])
+ 
+                 ax_urban_pg_vs_total_pg.set_title('Urban Population Growth vs. Total Population Growth')
+@@ -255,8 +255,8 @@
+                 ax_urban_pg_vs_total_pg.set_xlabel('Indicator')
+                 ax_urban_pg_vs_total_pg.tick_params(axis='x', rotation=0)
+ 
+-                plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                plt.pyplot.tight_layout()
++                plt.grid(axis='y', linestyle='--', alpha=0.7)
++                plt.tight_layout()
+                 st.pyplot(fig_urban_pg_vs_total_pg)
+     # ------------------End of bar plot for Urban Population Growth vs Total Population Growth-------------------#
+ 
+@@ -276,7 +276,7 @@
+                     pie_labels = ['Agriculture', 'Industry', 'Services', 'Other']
+                     pie_colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']  # Different colors for sectors
+ 
+-                    fig_employment_pie, ax_employment_pie = plt.pyplot.subplots(figsize=(8, 5))
++                    fig_employment_pie, ax_employment_pie = plt.subplots(figsize=(8, 5))
+                     wedges, texts, autotexts = ax_employment_pie.pie(pie_data, labels=None, autopct='%1.1f%%',
+                                                                      startangle=90,
+                                                                      colors=pie_colors, pctdistance=0.85)
+@@ -288,7 +288,7 @@
+                     ax_employment_pie.legend(wedges, legend_labels, title="Sectors", loc="lower left",
+                                              bbox_to_anchor=(-0.1, -0.2))
+ 
+-                    plt.pyplot.tight_layout()
++                    plt.tight_layout()
+                     st.pyplot(fig_employment_pie)
+             else:
+                 with col4:
+@@ -303,7 +303,7 @@
+                     pie_labels = ['Agriculture', 'Industry', 'Services', 'Other']
+                     pie_colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']  # Different colors for sectors
+ 
+-                    fig_employment_pie, ax_employment_pie = plt.pyplot.subplots(figsize=(8, 5))
++                    fig_employment_pie, ax_employment_pie = plt.subplots(figsize=(8, 5))
+                     wedges, texts, autotexts = ax_employment_pie.pie(pie_data, labels=None, autopct='%1.1f%%', startangle=90,
+                                                          colors=pie_colors, pctdistance=0.85)
+                     ax_employment_pie.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+@@ -313,7 +313,7 @@
+                     legend_labels = [f'{label}: {value:.1f}%' for label, value in zip(pie_labels, pie_data)]
+                     ax_employment_pie.legend(wedges, legend_labels, title="Sectors", loc="lower left", bbox_to_anchor=(-0.1, -0.2))
+ 
+-                    plt.pyplot.tight_layout()
++                    plt.tight_layout()
+                     st.pyplot(fig_employment_pie)
+     # ------------------End of pie chart for employment sectors-------------------#
+ 
+@@ -333,15 +333,15 @@
+                                country_row['post_secondary_enrollment_female'].values[0]]
+                 }, index=['Primary School', 'Secondary School', 'Post Secondary'])
+ 
+-                fig_enrollment, ax_enrollment = plt.pyplot.subplots(figsize=(8, 5))
++                fig_enrollment, ax_enrollment = plt.subplots(figsize=(8, 5))
+                 enrollment_df.plot(kind='bar', ax=ax_enrollment, color={'Male': 'steelblue', 'Female': 'palevioletred'})
+ 
+                 ax_enrollment.set_title('School Enrollment (Male vs. Female)')
+                 ax_enrollment.set_ylabel('Enrollment Rate (%)')
+                 ax_enrollment.set_xlabel('Education Level')
+                 ax_enrollment.tick_params(axis='x', rotation=45)
+-                plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                plt.pyplot.tight_layout()
++                plt.grid(axis='y', linestyle='--', alpha=0.7)
++                plt.tight_layout()
+                 st.pyplot(fig_enrollment)
+     #------------------End of bar plot for School Enrollment-------------------#
+ 
+@@ -351,7 +351,7 @@
+             if (((col_num == 'col1') | (col_num == 'col2') | (col_num == 'col3') | (col_num == 'col4') | (col_num == 'col5')) & (plots_column_allocation['school_enrollment'] is None)) :
+                 with col5:
+                     plot_data_life_expectancy = country_row.loc[country_name][['life_expectancy_male', 'life_expectancy_female']]
+-                    fig_life_expectancy, ax_life_expectancy = plt.pyplot.subplots(figsize=(8, 5))
++                    fig_life_expectancy, ax_life_expectancy = plt.subplots(figsize=(8, 5))
+                     plot_data_life_expectancy.plot(kind='bar', ax=ax_life_expectancy, color=['blue', 'gold'])
+ 
+                     ax_life_expectancy.set_title('Life Expectancy Male vs. Female')
+@@ -359,13 +359,13 @@
+                     ax_life_expectancy.set_xlabel('Indicator')
+                     ax_life_expectancy.tick_params(axis='x', rotation=0)
+ 
+-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                    plt.pyplot.tight_layout()
++                    plt.grid(axis='y', linestyle='--', alpha=0.7)
++                    plt.tight_layout()
+                     st.pyplot(fig_life_expectancy)
+             else:
+                 with col6:
+                     plot_data_life_expectancy = country_row.loc[country_name][['life_expectancy_male', 'life_expectancy_female']]
+-                    fig_life_expectancy, ax_life_expectancy = plt.pyplot.subplots(figsize=(8, 5))
++                    fig_life_expectancy, ax_life_expectancy = plt.subplots(figsize=(8, 5))
+                     plot_data_life_expectancy.plot(kind='bar', ax=ax_life_expectancy, color=['blue', 'gold'])
+ 
+                     ax_life_expectancy.set_title('Life Expectancy Male vs. Female')
+@@ -373,8 +373,8 @@
+                     ax_life_expectancy.set_xlabel('Indicator')
+                     ax_life_expectancy.tick_params(axis='x', rotation=0)
+ 
+-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
+-                    plt.pyplot.tight_layout()
++                    plt.grid(axis='y', linestyle='--', alpha=0.7)
++                    plt.tight_layout()
+                     st.pyplot(fig_life_expectancy)
+     # ------------------End of bar Life Expectancy-------------------#
+ 
+Index: Inter_Region.py
+===================================================================
+diff --git a/Inter_Region.py b/src/algo/Inter_Region.py
+rename from Inter_Region.py
+rename to src/algo/Inter_Region.py
+--- a/Inter_Region.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/algo/Inter_Region.py	(date 1790174945022)
+@@ -1,5 +1,5 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ def inter_region(country_data):
+ 
+@@ -19,9 +19,9 @@
+         if col not in exclude_col and  isinstance(df.loc[df.index[0],col],float):
+             grouped_df = df.groupby('region')[col].mean()
+             if ng % 4 ==0:
+-                #Lior Sinay 10/09/26 - Replaced plt with plt.pyplot
++                #Lior Sinay 10/09/26 - Replaced plt with plt
+                 #fig, axes = plt.subplots(2,2,figsize=(12, 6))
+-                fig, axes = plt.pyplot.subplots(2, 2, figsize=(12, 6))
++                fig, axes = plt.subplots(2, 2, figsize=(12, 6))
+                 axes = axes.flatten()
+             ax = axes[ng % 4]
+             lb = col
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Import libraries\nfrom libs_and_modules import *\n\n# Import function files\nfrom config_app_env import *\nfrom manage_app_interface import *\nfrom Intra_country_functions import *\nfrom Intra_continent_functions import *\nfrom Intra_region_functions import *\nfrom Inter_Country import *\nfrom Inter_Continent import *\nfrom Inter_Region import *\nfrom Correlation_Matrix import *\nfrom Units_Txt import *\n\n# Default values for configurable parameters\nrow_dropna_threshold_factor = 0.9 # The relation between the number of non empty cells to the total number of cells in a row\nplt.pyplot.rcParams['figure.max_open_warning'] = 30  # Set the limit for warnings on max number of figures ( Default is 20 )\n\n# Configure the Streamlit environment of MyCountry App and run it\nset_st_bg('streamlit_countries_background.jpg')\nconfig_st_page()\ncountry_data, country_column_data, country_columns_nan_percentage, country_geo_data = st_ui_start(row_dropna_threshold_factor)\nanalysis_type, target_entity = st_user_select_analysis(country_geo_data['countries'],country_geo_data['continents'], country_geo_data['regions'] )\n\n# Run the analysis based on the user's selection\nif analysis_type == 'intra_country':\n    country_row = country_data[country_data.index == target_entity]\n    run_intra_country_analysis(country_row, country_column_data['all'] )\n\nif analysis_type == 'intra_continent':\n    df_sorted_continent = country_data[country_data.Continent == target_entity]\n    run_intra_continent_analysis(df_sorted_continent)\n\nif analysis_type == 'intra_region':\n    df_sorted_region = country_data[country_data.region == target_entity]\n    run_intra_region_analysis(df_sorted_region)\n\n# each of the inter... functions return figures handles to be displayed in streamlit.\n# inside the functions, we do not call streamlit graphics!\nif analysis_type == 'inter_country':\n    figs = inter_country(country_data, target_entity, compareTo='World')\n    for fig in figs:\n        st.pyplot(fig)\n\nif analysis_type == 'inter_continent':\n    figs= inter_continent(country_data)\n    for fig in figs:\n        st.pyplot(fig)\n\nif analysis_type == 'inter_region':\n    figs= inter_region(country_data)\n    for fig in figs:\n        st.pyplot(fig)\n\nif analysis_type == 'correlation_matrix':\n    fig,matrix= correlation_matrix(country_data)\n    figs = plot_interesting_correlations(country_data, matrix, 0.8)\n    for fig in figs:\n        st.pyplot(fig)\n\n\n# Describe each of the parameters in the API  and the descriptive statistics of the selected DataFrame on the screen\nchar_exp = units_txt()\nst.markdown(\"<div style='color:white; margin-bottom:-20px;'>Description of the numeric variables in the data </div>\",unsafe_allow_html=True)\nst.markdown(\"<div style='color:white; margin-bottom:0px;'>---------------------------------------------------------------</div>\",unsafe_allow_html=True)\nst.dataframe(char_exp)\n\n# Print the descriptive statistics of the selected DataFrame on the screen\nst.markdown(\"<div style='color:white; margin-bottom:-20px;'>Descriptive statistics table of the data </div>\",unsafe_allow_html=True)\nst.markdown(\"<div style='color:white; margin-bottom:0px;'>--------------------------------------------------</div>\",unsafe_allow_html=True)\nst.dataframe(country_data.describe())\n\n# End of main code\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/main.py	(date 1790173627175)
+@@ -1,24 +1,35 @@
+ # Import libraries
+-from libs_and_modules import *
+ 
++from src.infra.libs_and_modules import *
++#--------------------------------#
++# Project Libraries & Modules    #
++#--------------------------------#
++# Internal
++#----------
++#---------------------------------#
++
++# External
++#----------
++#-------------------------------#
+ # Import function files
+-from config_app_env import *
+-from manage_app_interface import *
+-from Intra_country_functions import *
+-from Intra_continent_functions import *
+-from Intra_region_functions import *
+-from Inter_Country import *
+-from Inter_Continent import *
+-from Inter_Region import *
+-from Correlation_Matrix import *
+-from Units_Txt import *
++from src.infra.config_app_env import *
++from src.infra.manage_app_interface import *
++from src.algo.Intra_country_functions import *
++from src.algo.Intra_continent_functions import *
++from src.algo.Intra_region_functions import *
++from src.algo.Inter_Country import *
++from src.algo.Inter_Continent import *
++from src.algo.Inter_Region import *
++from src.algo.Correlation_Matrix import *
++from src.algo.Units_Txt import *
++import streamlit as st
+ 
+ # Default values for configurable parameters
+ row_dropna_threshold_factor = 0.9 # The relation between the number of non empty cells to the total number of cells in a row
+-plt.pyplot.rcParams['figure.max_open_warning'] = 30  # Set the limit for warnings on max number of figures ( Default is 20 )
++plt.rcParams['figure.max_open_warning'] = 30  # Set the limit for warnings on max number of figures ( Default is 20 )
+ 
+ # Configure the Streamlit environment of MyCountry App and run it
+-set_st_bg('streamlit_countries_background.jpg')
++set_st_bg('streamlit/streamlit_countries_background.jpg')
+ config_st_page()
+ country_data, country_column_data, country_columns_nan_percentage, country_geo_data = st_ui_start(row_dropna_threshold_factor)
+ analysis_type, target_entity = st_user_select_analysis(country_geo_data['countries'],country_geo_data['continents'], country_geo_data['regions'] )
+Index: config_app_env.py
+===================================================================
+diff --git a/config_app_env.py b/src/infra/config_app_env.py
+rename from config_app_env.py
+rename to src/infra/config_app_env.py
+--- a/config_app_env.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/infra/config_app_env.py	(date 1790173703993)
+@@ -1,5 +1,5 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ # ---------------------------------------#
+ # Function: set_st_bg                    #
+Index: manage_app_interface.py
+===================================================================
+diff --git a/manage_app_interface.py b/src/infra/manage_app_interface.py
+rename from manage_app_interface.py
+rename to src/infra/manage_app_interface.py
+--- a/manage_app_interface.py	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/infra/manage_app_interface.py	(date 1790174329577)
+@@ -1,8 +1,8 @@
+ # Import libraries
+-from libs_and_modules import *
++from src.infra.libs_and_modules import *
+ 
+ # Import Functions
+-from import_country_data import import_country_data
++from src.algo.import_country_data import import_country_data
+ 
+ # -------------------------------------------------------------------------------------------#
+ # Function: st_ui_start                                                                      #
+@@ -78,12 +78,12 @@
+ 
+     # Import the data based on the user selection
+     if (Import_data.lower() == 'y'):
+-        out_filename = 'country_with_data.csv'
++        out_filename = '../../data/country_with_data.csv'
+         st.write(f"<span style='color: white; font-weight: bold;'>Creating new database, please wait...</span>",
+                  unsafe_allow_html=True)
+         try:
+             import_country_data(out_filename)
+-            country_data_orig = pd.read_csv('country_with_data.csv')
++            country_data_orig = pd.read_csv('data/country_with_data.csv')
+             st.write(f"<span style='color: white; font-weight: bold;'>Finished loading and reading new data</span>",
+                      unsafe_allow_html=True)
+ 
+@@ -98,7 +98,7 @@
+ 
+     else:
+         try:
+-            country_data_orig = pd.read_csv('country_with_data.csv')
++            country_data_orig = pd.read_csv('data/country_with_data.csv')
+             st.write(
+             f"<span style='color: white; font-weight: bold;'>Finished loading and reading current data</span>", unsafe_allow_html=True)
+ 
+@@ -154,7 +154,7 @@
+ #----------------------------------------------------------------------------------------------------#
+ def process_new_data(datain, data_import_type, row_dropna_threshold_factor = 0.9):
+     # Open a log file for debug and review
+-    with open('country_data_analyze_and_process_log.txt', 'w') as log_file:
++    with open('output/country_data_analyze_and_process_log.txt', 'w') as log_file:
+         log_file.write(f'Log opened at: {dt.datetime.now(zi.ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H:%M:%S")} Jerusalm time. '
+                        f'UTC time is {dt.datetime.now(zi.ZoneInfo("UTC")).strftime("%Y-%m-%d %H:%M:%S")}\n')
+         if (data_import_type == 'new'):
+Index: intra_continent_functions_log.txt
+===================================================================
+diff --git a/intra_continent_functions_log.txt b/output/intra_continent_functions_log.txt
+rename from intra_continent_functions_log.txt
+rename to output/intra_continent_functions_log.txt
+--- a/intra_continent_functions_log.txt	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/output/intra_continent_functions_log.txt	(date 1790588870401)
+@@ -23,3 +23,54 @@
+ 
+ single_continent_plots function concluded
+ #-----------------------------------------------------------------------#
++Log for continent Europe opened at: 2026-09-28 12:47:48 Jerusalm time. UTC time is 2026-09-28 09:47:48
++#--------------------------------------------------------------------------------------------------------------------------------------------#
++
++ There are 38 countries in the dataset of this continent:
++Albania
++Austria
++Belarus
++Belgium
++Bulgaria
++Croatia
++Czechia
++Denmark
++Estonia
++Finland
++France
++Germany
++Greece
++Hungary
++Iceland
++Ireland
++Italy
++Latvia
++Lithuania
++Luxembourg
++Malta
++Moldova
++Montenegro
++Netherlands
++North Macedonia
++Norway
++Poland
++Portugal
++Romania
++Russia
++Serbia
++Slovakia
++Slovenia
++Spain
++Sweden
++Switzerland
++Ukraine
++United Kingdom
++
++#-------------------------------------------------------------------------------------------#
++
++
++Starting single_continent_plots function
++#----------------------------#
++
++single_continent_plots function concluded
++#-----------------------------------------------------------------------#
+Index: country_data_analyze_and_process_log.txt
+===================================================================
+diff --git a/country_data_analyze_and_process_log.txt b/output/country_data_analyze_and_process_log.txt
+rename from country_data_analyze_and_process_log.txt
+rename to output/country_data_analyze_and_process_log.txt
+--- a/country_data_analyze_and_process_log.txt	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/output/country_data_analyze_and_process_log.txt	(date 1790588873815)
+@@ -1,4 +1,4 @@
+-Log opened at: 2026-09-14 13:41:27 Jerusalm time. UTC time is 2026-09-14 10:41:27
++Log opened at: 2026-09-28 12:47:53 Jerusalm time. UTC time is 2026-09-28 09:47:53
+ Run on data imported from existing csv file created in the past
+ Starting Analysis and Processing...
+ 
+Index: Country_Analysis.ipynb
+===================================================================
+diff --git a/Country_Analysis.ipynb b/src/notebook/Country_Analysis.ipynb
+rename from Country_Analysis.ipynb
+rename to src/notebook/Country_Analysis.ipynb
+--- a/Country_Analysis.ipynb	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/src/notebook/Country_Analysis.ipynb	(date 1790173335345)
+@@ -11,10 +11,8 @@
+     }
+    },
+    "source": [
+-    "from json.decoder import NaN\n",
+-    "from math import nan\n",
+     "\n",
+-    "import math\n",
++    "\n",
+     "import seaborn as sns\n",
+     "import matplotlib.pyplot as plt"
+    ],
+@@ -43,7 +41,7 @@
+    },
+    "cell_type": "code",
+    "source": [
+-    "country_data=pd.read_csv('country_with_data.csv')\n",
++    "country_data=pd.read_csv('../../data/country_with_data.csv')\n",
+     "df= country_data\n",
+     "df.set_index('Country',inplace=True)"
+    ],
+@@ -1603,7 +1601,7 @@
+     }
+    },
+    "cell_type": "code",
+-   "source": "from Correlation_Matrix import *\n",
++   "source": "from algo.Correlation_Matrix import *\n",
+    "id": "5f78c354c8636517",
+    "outputs": [],
+    "execution_count": 96
+@@ -1732,7 +1730,7 @@
+    },
+    "cell_type": "code",
+    "source": [
+-    "country_data=pd.read_csv('country_with_data.csv')\n",
++    "country_data=pd.read_csv('../../data/country_with_data.csv')\n",
+     "df=country_data\n",
+     "DivideByPop = ['tourists', 'area', 'co2_emissions','imports','exports']\n",
+     "exclude_col = [\"gdp\", \"rel\", \"surface_area\"]\n",
+Index: intra_region_functions_log.txt
+===================================================================
+diff --git a/intra_region_functions_log.txt b/output/intra_region_functions_log.txt
+rename from intra_region_functions_log.txt
+rename to output/intra_region_functions_log.txt
+--- a/intra_region_functions_log.txt	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/output/intra_region_functions_log.txt	(date 1790174970351)
+@@ -45,3 +45,32 @@
+ 
+ single_region_plots function concluded
+ #-----------------------------------------------------------------------#
++Log for region Western Asia opened at: 2026-09-23 17:49:28 Jerusalm time. UTC time is 2026-09-23 14:49:28
++#--------------------------------------------------------------------------------------------------------------------------------------------#
++
++ There are 16 countries in the dataset of this region:
++Armenia
++Azerbaijan
++Bahrain
++Cyprus
++Georgia
++Iraq
++Israel
++Jordan
++Kuwait
++Oman
++Qatar
++Saudi Arabia
++Syria
++Turkey
++United Arab Emirates
++Yemen
++
++#-------------------------------------------------------------------------------------------#
++
++
++Starting single_region_plots function
++#----------------------------#
++
++single_region_plots function concluded
++#-----------------------------------------------------------------------#
+Index: .idea/DataAnalysisProjectAdvanced.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"PYTHON_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\">\n      <excludeFolder url=\"file://$MODULE_DIR$/.venv\" />\n    </content>\n    <orderEntry type=\"jdk\" jdkName=\"~/Documents/GitHub/DataAnalysisProjectAdvanced/.venv\" jdkType=\"Python SDK\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n  <component name=\"PackageRequirementsSettings\" />\n  <component name=\"PyDocumentationSettings\" />\n  <component name=\"ReSTService\" />\n  <component name=\"TestRunnerService\" />\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/DataAnalysisProjectAdvanced.iml b/.idea/DataAnalysisProjectAdvanced.iml
+--- a/.idea/DataAnalysisProjectAdvanced.iml	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/.idea/DataAnalysisProjectAdvanced.iml	(date 1790171672544)
+@@ -2,13 +2,10 @@
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+     </content>
+     <orderEntry type="jdk" jdkName="~/Documents/GitHub/DataAnalysisProjectAdvanced/.venv" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+-  <component name="PackageRequirementsSettings" />
+-  <component name="PyDocumentationSettings" />
+-  <component name="ReSTService" />
+-  <component name="TestRunnerService" />
+ </module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"397aad51-5da5-411f-9872-38390bf14c8a\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 8,\n  \"fromUser\": false\n}]]></component>\n  <component name=\"ProjectId\" id=\"3JP6JoYZ8WDL3vwfyKBBxStkY1u\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\n    \"git-widget-placeholder\": \"master\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"397aad51-5da5-411f-9872-38390bf14c8a\" name=\"Changes\" comment=\"\" />\n      <created>1789550286949</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1789550286949</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5f857f4fb4b28935b9d406db29e963da6fba1f55)
++++ b/.idea/workspace.xml	(date 1790588742188)
+@@ -1,7 +1,35 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="397aad51-5da5-411f-9872-38390bf14c8a" name="Changes" comment="" />
++    <list default="true" id="397aad51-5da5-411f-9872-38390bf14c8a" name="Changes" comment="Initial new project with extra options">
++      <change beforePath="$PROJECT_DIR$/.idea/DataAnalysisProjectAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalysisProjectAdvanced.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Correlation_Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Correlation_Matrix.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Country_Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/notebook/Country_Analysis.ipynb" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Inter_Continent.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Inter_Continent.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Inter_Country.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Inter_Country.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Inter_Region.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Inter_Region.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Intra_continent_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Intra_continent_functions.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Intra_country_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Intra_country_functions.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Intra_region_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Intra_region_functions.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Units_Txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Units_Txt.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/config_app_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/config_app_env.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/countries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/countries.csv" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/country_data_analyze_and_process_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/country_data_analyze_and_process_log.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/country_data_anlyze_and_process_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/country_data_anlyze_and_process_log.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/country_with_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/country_with_data.csv" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/import_country_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/import_country_data.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/intra_continent_functions_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/intra_continent_functions_log.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/intra_region_functions_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/intra_region_functions_log.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/libs_and_modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/libs_and_modules.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/manage_app_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/manage_app_interface.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/streamlit/secrets.toml.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/secrets.toml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/streamlit_countries_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/streamlit_countries_background.jpg" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -10,24 +38,149 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 8,
+-  "fromUser": false
+-}]]></component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Ariel14061969&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/Ariel14061969/DataAnalysisAdvanced&quot;,
++    &quot;accountId&quot;: &quot;61e7f0e1-94f5-451a-8d26-cd7c0de8d268&quot;
++  }
++}</component>
++  <component name="NextEditCompletionFeaturesState">
++    <decayedCancelled>
++      <entry key="MS100" value="1.8526348917679567" />
++      <entry key="MS500" value="1.968618189226628" />
++      <entry key="S2" value="1.9920604931323211" />
++      <entry key="S5" value="1.9968288132084941" />
++      <entry key="S10" value="2.0068866038491646" />
++      <entry key="S30" value="2.9126352860718443" />
++      <entry key="S60" value="5.695857334177667" />
++      <entry key="M2" value="11.301007796263065" />
++      <entry key="M5" value="23.372099113167543" />
++      <entry key="M10" value="32.83848149967535" />
++      <entry key="M15" value="37.269904670508865" />
++      <entry key="M30" value="42.58860473887529" />
++      <entry key="H1" value="45.6430378167791" />
++      <entry key="H2" value="47.28168640966561" />
++      <entry key="H4" value="48.13062069779618" />
++      <entry key="D1" value="48.85366061796694" />
++      <entry key="W1" value="48.97905873479392" />
++    </decayedCancelled>
++    <decayedSelected>
++      <entry key="MS100" value="0.0" />
++      <entry key="MS500" value="6.208534560920847E-219" />
++      <entry key="S2" value="2.807031432291546E-55" />
++      <entry key="S5" value="1.511119849363917E-22" />
++      <entry key="S10" value="1.229276148537795E-11" />
++      <entry key="S30" value="2.30789733173807E-4" />
++      <entry key="S60" value="0.01519176530801496" />
++      <entry key="M2" value="0.12325487944911126" />
++      <entry key="M5" value="0.4328342794000706" />
++      <entry key="M10" value="0.657901420731154" />
++      <entry key="M15" value="0.7564389495003069" />
++      <entry key="M30" value="0.8697349880856272" />
++      <entry key="H1" value="0.9325958331912207" />
++      <entry key="H2" value="0.9657100150620894" />
++      <entry key="H4" value="0.982705456920887" />
++      <entry key="D1" value="0.9970965829844938" />
++      <entry key="W1" value="0.9995847090990152" />
++    </decayedSelected>
++    <decayedShown>
++      <entry key="MS100" value="1.2757339295521677" />
++      <entry key="MS500" value="1.803731897405493" />
++      <entry key="S2" value="1.9477545619402221" />
++      <entry key="S5" value="1.9788434861473456" />
++      <entry key="S10" value="1.9971974058827884" />
++      <entry key="S30" value="2.883023017550962" />
++      <entry key="S60" value="5.64910523161956" />
++      <entry key="M2" value="11.337306966265594" />
++      <entry key="M5" value="23.70969907489612" />
++      <entry key="M10" value="33.42193942943016" />
++      <entry key="M15" value="37.96798258403395" />
++      <entry key="M30" value="43.423807541355174" />
++      <entry key="H1" value="46.55680771119559" />
++      <entry key="H2" value="48.23756195942998" />
++      <entry key="H4" value="49.1082993427107" />
++      <entry key="D1" value="49.84990380970166" />
++      <entry key="W1" value="49.9785211441667" />
++    </decayedShown>
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 8,
++  &quot;fromUser&quot;: false
++}</component>
+   <component name="ProjectId" id="3JP6JoYZ8WDL3vwfyKBBxStkY1u" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+-    "codeWithMe.voiceChat.enabledByDefault": "false",
+-    "git-widget-placeholder": "master"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;Python.main.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
++    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
++    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
++    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/algo" />
++      <recent name="$PROJECT_DIR$/src/infra" />
++      <recent name="$PROJECT_DIR$/output" />
++      <recent name="$PROJECT_DIR$/src/notebook" />
++      <recent name="$PROJECT_DIR$/streamlit" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="DataAnalysisProjectAdvanced" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="DEBUG_JUST_MY_CODE" value="false" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="RUN_TOOL" value="" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.main" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -42,10 +195,34 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1789550286949</updated>
++      <workItem from="1790085230938" duration="159000" />
++      <workItem from="1790085440307" duration="7708000" />
++      <workItem from="1790172687724" duration="7794000" />
+     </task>
++    <task id="LOCAL-00001" summary="Initial new project with extra options">
++      <option name="closed" value="true" />
++      <created>1789550458705</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1789550458705</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Initial new project with extra options">
++      <option name="closed" value="true" />
++      <created>1789550492960</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1789550492960</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Initial new project with extra options" />
++    <option name="LAST_COMMIT_MESSAGE" value="Initial new project with extra options" />
++  </component>
+ </project>
+\ No newline at end of file
+diff --git a/country_with_data.csv b/data/country_with_data.csv
+rename from country_with_data.csv
+rename to data/country_with_data.csv
+diff --git a/countries.csv b/data/countries.csv
+rename from countries.csv
+rename to data/countries.csv
+diff --git a/country_data_anlyze_and_process_log.txt b/output/country_data_anlyze_and_process_log.txt
+rename from country_data_anlyze_and_process_log.txt
+rename to output/country_data_anlyze_and_process_log.txt

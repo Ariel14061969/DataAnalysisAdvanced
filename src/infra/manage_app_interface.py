@@ -1,8 +1,8 @@
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 # Import Functions
-from import_country_data import import_country_data
+from src.algo.import_country_data import import_country_data
 
 # -------------------------------------------------------------------------------------------#
 # Function: st_ui_start                                                                      #
@@ -78,12 +78,12 @@ def st_ui_start(row_dropna_threshold_factor = 0.9):
 
     # Import the data based on the user selection
     if (Import_data.lower() == 'y'):
-        out_filename = 'country_with_data.csv'
+        out_filename = 'data/country_with_data.csv'
         st.write(f"<span style='color: white; font-weight: bold;'>Creating new database, please wait...</span>",
                  unsafe_allow_html=True)
         try:
             import_country_data(out_filename)
-            country_data_orig = pd.read_csv('country_with_data.csv')
+            country_data_orig = pd.read_csv('data/country_with_data.csv')
             st.write(f"<span style='color: white; font-weight: bold;'>Finished loading and reading new data</span>",
                      unsafe_allow_html=True)
 
@@ -98,7 +98,7 @@ def st_ui_start(row_dropna_threshold_factor = 0.9):
 
     else:
         try:
-            country_data_orig = pd.read_csv('country_with_data.csv')
+            country_data_orig = pd.read_csv('data/country_with_data.csv')
             st.write(
             f"<span style='color: white; font-weight: bold;'>Finished loading and reading current data</span>", unsafe_allow_html=True)
 
@@ -154,7 +154,7 @@ def st_ui_start(row_dropna_threshold_factor = 0.9):
 #----------------------------------------------------------------------------------------------------#
 def process_new_data(datain, data_import_type, row_dropna_threshold_factor = 0.9):
     # Open a log file for debug and review
-    with open('country_data_analyze_and_process_log.txt', 'w') as log_file:
+    with open('output/country_data_analyze_and_process_log.txt', 'w') as log_file:
         log_file.write(f'Log opened at: {dt.datetime.now(zi.ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H:%M:%S")} Jerusalm time. '
                        f'UTC time is {dt.datetime.now(zi.ZoneInfo("UTC")).strftime("%Y-%m-%d %H:%M:%S")}\n')
         if (data_import_type == 'new'):

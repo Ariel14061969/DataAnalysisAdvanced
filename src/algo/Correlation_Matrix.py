@@ -2,7 +2,7 @@
 #from matplotlib import pyplot as plt
 
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 def correlation_matrix(country_data):
 
@@ -19,9 +19,9 @@ def correlation_matrix(country_data):
         if col in exclude_col or not isinstance(df.loc[df.index[0],col],float):
             df.drop(columns=[col],inplace=True)
     matrix = abs(df.corr())
-    # Lior Sinay 10/09/26 - Replaced plt with plt.pyplot
+    # Lior Sinay 10/09/26 - Replaced plt with plt.
     #fig, ax = plt.subplots()
-    fig, ax = plt.pyplot.subplots()
+    fig, ax = plt.subplots()
     sns.heatmap(matrix,ax=ax)
     return fig,matrix
 
@@ -36,9 +36,9 @@ def plot_interesting_correlations(country_data, matrix, threshold = 0.8):
                         val = matrix.loc[row, col]
                         if val > threshold and col != row:
                             if ng % n_subg == 0:
-                                #Lior Sinay 10/09/2026 - plt replaced with plt.pyplot
+                                #Lior Sinay 10/09/2026 - plt replaced with plt.
                                 #fig, axes = plt.subplots(2, 2, figsize=[12, 5])
-                                fig, axes = plt.pyplot.subplots(2, 2, figsize=[12, 5])
+                                fig, axes = plt.subplots(2, 2, figsize=[12, 5])
                                 axes = axes.flatten()
                             axc = axes[ng % n_subg]
                             axc.scatter(country_data[row], country_data[col],s=5)

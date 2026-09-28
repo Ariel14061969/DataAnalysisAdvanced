@@ -1,0 +1,3 @@
+diff --git a/streamlit/secrets.toml.py b/streamlit/secrets.toml
+rename from streamlit/secrets.toml.py
+rename to streamlit/secrets.toml

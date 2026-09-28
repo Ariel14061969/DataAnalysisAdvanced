@@ -1,12 +1,12 @@
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 def import_country_data(filename):
     with open(".streamlit/secrets.toml", "rb") as f:
         config = tomllib.load(f)
     # print(config['api_key'])
 
-    country_data = pd.read_csv('countries.csv')
+    country_data = pd.read_csv('../../data/countries.csv')
     country_data.set_index('Country', inplace=True)
     country_data['flag_url']= ""
     country_columns = ['gdp',

@@ -1,0 +1,172 @@
+Log opened at: 2026-09-22 17:03:14 Jerusalm time. UTC time is 2026-09-22 14:03:14
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+Country_Name: Algeria
+ISO2: DZ
+Continent: Africa
+gdp: 173757.0
+sex_ratio: 102.1
+surface_area: 2381741.0
+life_expectancy_male: 75.4
+unemployment: 11.5
+homicide_rate: 1.4
+urban_population_growth: 2.9
+secondary_school_enrollment_female: 101.5
+employment_agriculture: 9.7
+co2_emissions: 130.5
+forested_area: 0.8
+tourists: 2657.0
+life_expectancy_female: 77.8
+post_secondary_enrollment_female: 64.4
+post_secondary_enrollment_male: 38.8
+primary_school_enrollment_female: 107.3
+infant_mortality: 21.2
+gdp_growth: 1.4
+population: 43851.0
+urban_population: 73.2
+secondary_school_enrollment_male: 97.8
+pop_growth: 2.0
+region: Northern Africa
+pop_density: 18.4
+internet_users: 49.0
+gdp_per_capita: 4114.7
+fertility: 3.0
+refugees: 99.5
+primary_school_enrollment_male: 112.4
+employment_industry: 30.7
+employment_services: 59.6
+imports: 45140.0
+exports: 34571.0
+capital: Algiers
+
+No empty cells were found in the data for Algeria.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-09-23 17:49:13 Jerusalm time. UTC time is 2026-09-23 14:49:13
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+Country_Name: Cabo Verde
+ISO2: CV
+Continent: Africa
+gdp: 1977.0
+sex_ratio: 100.8
+surface_area: 4033.0
+life_expectancy_male: 69.2
+unemployment: 12.3
+homicide_rate: 6.8
+urban_population_growth: 2.0
+secondary_school_enrollment_female: 92.5
+employment_agriculture: 11.1
+co2_emissions: No Data
+forested_area: 22.3
+tourists: 710.0
+life_expectancy_female: 75.9
+post_secondary_enrollment_female: 28.3
+post_secondary_enrollment_male: 19.0
+primary_school_enrollment_female: 100.5
+infant_mortality: 16.9
+gdp_growth: 5.1
+population: 556.0
+urban_population: 66.2
+secondary_school_enrollment_male: 83.9
+pop_growth: 1.2
+region: Western Africa
+pop_density: 138.0
+internet_users: 57.2
+gdp_per_capita: 3635.4
+fertility: 2.3
+refugees: 0.1
+primary_school_enrollment_male: 107.5
+employment_industry: 22.1
+employment_services: 66.8
+imports: 941.0
+exports: 76.0
+capital: Praia
+
+The following columns are empty and reported as "No Data" in the country ID:
+[
+co2_emissions
+]
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-09-23 17:45:33 Jerusalm time. UTC time is 2026-09-23 14:45:33
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+Country_Name: Cabo Verde
+ISO2: CV
+Continent: Africa
+gdp: 1977.0
+sex_ratio: 100.8
+surface_area: 4033.0
+life_expectancy_male: 69.2
+unemployment: 12.3
+homicide_rate: 6.8
+urban_population_growth: 2.0
+secondary_school_enrollment_female: 92.5
+employment_agriculture: 11.1
+co2_emissions: No Data
+forested_area: 22.3
+tourists: 710.0
+life_expectancy_female: 75.9
+post_secondary_enrollment_female: 28.3
+post_secondary_enrollment_male: 19.0
+primary_school_enrollment_female: 100.5
+infant_mortality: 16.9
+gdp_growth: 5.1
+population: 556.0
+urban_population: 66.2
+secondary_school_enrollment_male: 83.9
+pop_growth: 1.2
+region: Western Africa
+pop_density: 138.0
+internet_users: 57.2
+gdp_per_capita: 3635.4
+fertility: 2.3
+refugees: 0.1
+primary_school_enrollment_male: 107.5
+employment_industry: 22.1
+employment_services: 66.8
+imports: 941.0
+exports: 76.0
+capital: Praia
+
+The following columns are empty and reported as "No Data" in the country ID:
+[
+co2_emissions
+]
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted

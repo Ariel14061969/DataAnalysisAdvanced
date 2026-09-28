@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="397aad51-5da5-411f-9872-38390bf14c8a" name="Changes" comment="" />
+    <list default="true" id="397aad51-5da5-411f-9872-38390bf14c8a" name="Changes" comment="Initial new project with extra options">
+      <change afterPath="$PROJECT_DIR$/src/algo/Country_Analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infra/streamlit_countries_background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Correlation_Matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Correlation_Matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Country_Analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inter_Continent.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Inter_Continent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inter_Country.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Inter_Country.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inter_Region.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Inter_Region.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intra_continent_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Intra_continent_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intra_country_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Intra_country_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intra_region_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Intra_region_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Units_Txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Units_Txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_app_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/config_app_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/countries.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_data_analyze_and_process_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/country_data_analyze_and_process_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_data_anlyze_and_process_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/country_data_anlyze_and_process_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_with_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/country_with_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/import_country_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/import_country_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intra_continent_functions_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/intra_continent_functions_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intra_region_functions_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/intra_region_functions_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs_and_modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/libs_and_modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage_app_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infra/manage_app_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_countries_background.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,24 +38,149 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ariel14061969&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ariel14061969/DataAnalysisAdvanced&quot;,
+    &quot;accountId&quot;: &quot;61e7f0e1-94f5-451a-8d26-cd7c0de8d268&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000001648" />
+      <entry key="MS500" value="1.0038978182186646" />
+      <entry key="S2" value="1.4126745652264925" />
+      <entry key="S5" value="2.062199523466827" />
+      <entry key="S10" value="2.457164535736477" />
+      <entry key="S30" value="2.799555284123182" />
+      <entry key="S60" value="2.8971189066184246" />
+      <entry key="M2" value="2.9478769273203858" />
+      <entry key="M5" value="2.978984625422364" />
+      <entry key="M10" value="2.9894644244954405" />
+      <entry key="M15" value="2.9929700709160247" />
+      <entry key="M30" value="2.996481925734417" />
+      <entry key="H1" value="2.998240184744952" />
+      <entry key="H2" value="2.9991198977554245" />
+      <entry key="H4" value="2.999559997857383" />
+      <entry key="D1" value="4.738134397696961" />
+      <entry key="W1" value="33.411616806460664" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="1.5546018786741373E-209" />
+      <entry key="M15" value="6.228920559414713E-140" />
+      <entry key="M30" value="2.4957805511331935E-70" />
+      <entry key="H1" value="1.5798039597156327E-35" />
+      <entry key="H2" value="3.9746747787908805E-18" />
+      <entry key="H4" value="1.9936586414907843E-9" />
+      <entry key="D1" value="0.035476584364967756" />
+      <entry key="W1" value="0.6206529565760575" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.009743361063244E-5" />
+      <entry key="MS500" value="0.12589455934492208" />
+      <entry key="S2" value="0.8804764077962722" />
+      <entry key="S5" value="1.7221620008914693" />
+      <entry key="S10" value="2.248071500133453" />
+      <entry key="S30" value="2.718332733991439" />
+      <entry key="S60" value="2.854844661951688" />
+      <entry key="M2" value="2.92630537553521" />
+      <entry key="M5" value="2.970249257351576" />
+      <entry key="M10" value="2.9850787382421786" />
+      <entry key="M15" value="2.9900422638149733" />
+      <entry key="M30" value="2.995016010094029" />
+      <entry key="H1" value="2.997506723159029" />
+      <entry key="H2" value="2.9987530409280088" />
+      <entry key="H4" value="2.9993765399068866" />
+      <entry key="D1" value="4.7735500374627104" />
+      <entry key="W1" value="34.03218945698755" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JP6JoYZ8WDL3vwfyKBBxStkY1u" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algo" />
+      <recent name="$PROJECT_DIR$/src/infra" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/output" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataAnalysisProjectAdvanced" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,10 +195,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789550286949</updated>
+      <workItem from="1790085230938" duration="159000" />
+      <workItem from="1790085440307" duration="7708000" />
+      <workItem from="1790172687724" duration="9040000" />
+      <workItem from="1790590027078" duration="1419000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial new project with extra options">
+      <option name="closed" value="true" />
+      <created>1789550458705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789550458705</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial new project with extra options">
+      <option name="closed" value="true" />
+      <created>1789550492960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789550492960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial new project with extra options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial new project with extra options" />
   </component>
 </project>

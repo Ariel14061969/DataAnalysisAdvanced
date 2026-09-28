@@ -1,5 +1,5 @@
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 def inter_region(country_data):
 
@@ -19,9 +19,9 @@ def inter_region(country_data):
         if col not in exclude_col and  isinstance(df.loc[df.index[0],col],float):
             grouped_df = df.groupby('region')[col].mean()
             if ng % 4 ==0:
-                #Lior Sinay 10/09/26 - Replaced plt with plt.pyplot
+                #Lior Sinay 10/09/26 - Replaced plt with plt.
                 #fig, axes = plt.subplots(2,2,figsize=(12, 6))
-                fig, axes = plt.pyplot.subplots(2, 2, figsize=(12, 6))
+                fig, axes = plt.subplots(2, 2, figsize=(12, 6))
                 axes = axes.flatten()
             ax = axes[ng % 4]
             lb = col

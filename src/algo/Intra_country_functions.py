@@ -1,5 +1,5 @@
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 # ---------------------------------------------------------------------------------------------------------------------#
 # Function: run_intra_country_analysis                                                                                 #
@@ -191,7 +191,7 @@ def single_counrty_plots(country_row,log_file):
         if plots_column_allocation['imports_and_exports'] is not None:
             with col1:
                 plot_data_imports_exports = country_row.loc[country_name][['imports', 'exports']]
-                fig_imports_exports, ax_imports_exports = plt.pyplot.subplots(figsize=(8, 5))
+                fig_imports_exports, ax_imports_exports = plt.subplots(figsize=(8, 5))
                 plot_data_imports_exports.plot(kind='bar', ax=ax_imports_exports, color=['red', 'green'])
 
                 ax_imports_exports.set_title('Imports vs. Exports ( Trade Balance )')
@@ -199,8 +199,8 @@ def single_counrty_plots(country_row,log_file):
                 ax_imports_exports.set_xlabel('Indicator')
                 ax_imports_exports.tick_params(axis='x', rotation=0)
 
-                plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                plt.pyplot.tight_layout()
+                plt.grid(axis='y', linestyle='--', alpha=0.7)
+                plt.tight_layout()
                 st.pyplot(fig_imports_exports)
 
     #------------------End of bar plot for Imports vs. Exports ----------------------------#
@@ -211,7 +211,7 @@ def single_counrty_plots(country_row,log_file):
             if ((col_num == 'col1') | (plots_column_allocation['imports_and_exports'] is None)):
                 with col1:
                     plot_data_gdp_pop = country_row.loc[country_name][['gdp_growth', 'pop_growth']]
-                    fig_gdp_pop, ax_gdp_pop = plt.pyplot.subplots(figsize=(8, 5))
+                    fig_gdp_pop, ax_gdp_pop = plt.subplots(figsize=(8, 5))
                     plot_data_gdp_pop.plot(kind='bar', ax=ax_gdp_pop, color=['lightgreen', 'yellow'])
 
                     ax_gdp_pop.set_title('GDP Growth vs. Population Growth')
@@ -219,14 +219,14 @@ def single_counrty_plots(country_row,log_file):
                     ax_gdp_pop.set_xlabel('Indicator')
                     ax_gdp_pop.tick_params(axis='x', rotation=0)
 
-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                    plt.pyplot.tight_layout()
+                    plt.grid(axis='y', linestyle='--', alpha=0.7)
+                    plt.tight_layout()
                     st.pyplot(fig_gdp_pop)
 
             else:
                 with col2:
                     plot_data_gdp_pop = country_row.loc[country_name][['gdp_growth', 'pop_growth']]
-                    fig_gdp_pop, ax_gdp_pop = plt.pyplot.subplots(figsize=(8, 5))
+                    fig_gdp_pop, ax_gdp_pop = plt.subplots(figsize=(8, 5))
                     plot_data_gdp_pop.plot(kind='bar', ax=ax_gdp_pop, color=['lightgreen', 'yellow'])
 
                     ax_gdp_pop.set_title('GDP Growth vs. Population Growth')
@@ -234,8 +234,8 @@ def single_counrty_plots(country_row,log_file):
                     ax_gdp_pop.set_xlabel('Indicator')
                     ax_gdp_pop.tick_params(axis='x', rotation=0)
 
-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                    plt.pyplot.tight_layout()
+                    plt.grid(axis='y', linestyle='--', alpha=0.7)
+                    plt.tight_layout()
                     st.pyplot(fig_gdp_pop)
 
     # ------------------End of bar plot for gdp growth vs. population growth-------------------#
@@ -247,7 +247,7 @@ def single_counrty_plots(country_row,log_file):
         if plots_column_allocation['urban_pop_growth_vs_pop_growth'] is not None:
             with col3:
                 plot_data_urban_pg_vs_total_pg = country_row.loc[country_name][['urban_population_growth', 'pop_growth']]
-                fig_urban_pg_vs_total_pg, ax_urban_pg_vs_total_pg = plt.pyplot.subplots(figsize=(8, 5))
+                fig_urban_pg_vs_total_pg, ax_urban_pg_vs_total_pg = plt.subplots(figsize=(8, 5))
                 plot_data_urban_pg_vs_total_pg.plot(kind='bar', ax=ax_urban_pg_vs_total_pg, color=['red', 'green'])
 
                 ax_urban_pg_vs_total_pg.set_title('Urban Population Growth vs. Total Population Growth')
@@ -255,8 +255,8 @@ def single_counrty_plots(country_row,log_file):
                 ax_urban_pg_vs_total_pg.set_xlabel('Indicator')
                 ax_urban_pg_vs_total_pg.tick_params(axis='x', rotation=0)
 
-                plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                plt.pyplot.tight_layout()
+                plt.grid(axis='y', linestyle='--', alpha=0.7)
+                plt.tight_layout()
                 st.pyplot(fig_urban_pg_vs_total_pg)
     # ------------------End of bar plot for Urban Population Growth vs Total Population Growth-------------------#
 
@@ -276,7 +276,7 @@ def single_counrty_plots(country_row,log_file):
                     pie_labels = ['Agriculture', 'Industry', 'Services', 'Other']
                     pie_colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']  # Different colors for sectors
 
-                    fig_employment_pie, ax_employment_pie = plt.pyplot.subplots(figsize=(8, 5))
+                    fig_employment_pie, ax_employment_pie = plt.subplots(figsize=(8, 5))
                     wedges, texts, autotexts = ax_employment_pie.pie(pie_data, labels=None, autopct='%1.1f%%',
                                                                      startangle=90,
                                                                      colors=pie_colors, pctdistance=0.85)
@@ -288,7 +288,7 @@ def single_counrty_plots(country_row,log_file):
                     ax_employment_pie.legend(wedges, legend_labels, title="Sectors", loc="lower left",
                                              bbox_to_anchor=(-0.1, -0.2))
 
-                    plt.pyplot.tight_layout()
+                    plt.tight_layout()
                     st.pyplot(fig_employment_pie)
             else:
                 with col4:
@@ -303,7 +303,7 @@ def single_counrty_plots(country_row,log_file):
                     pie_labels = ['Agriculture', 'Industry', 'Services', 'Other']
                     pie_colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']  # Different colors for sectors
 
-                    fig_employment_pie, ax_employment_pie = plt.pyplot.subplots(figsize=(8, 5))
+                    fig_employment_pie, ax_employment_pie = plt.subplots(figsize=(8, 5))
                     wedges, texts, autotexts = ax_employment_pie.pie(pie_data, labels=None, autopct='%1.1f%%', startangle=90,
                                                          colors=pie_colors, pctdistance=0.85)
                     ax_employment_pie.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
@@ -313,7 +313,7 @@ def single_counrty_plots(country_row,log_file):
                     legend_labels = [f'{label}: {value:.1f}%' for label, value in zip(pie_labels, pie_data)]
                     ax_employment_pie.legend(wedges, legend_labels, title="Sectors", loc="lower left", bbox_to_anchor=(-0.1, -0.2))
 
-                    plt.pyplot.tight_layout()
+                    plt.tight_layout()
                     st.pyplot(fig_employment_pie)
     # ------------------End of pie chart for employment sectors-------------------#
 
@@ -333,15 +333,15 @@ def single_counrty_plots(country_row,log_file):
                                country_row['post_secondary_enrollment_female'].values[0]]
                 }, index=['Primary School', 'Secondary School', 'Post Secondary'])
 
-                fig_enrollment, ax_enrollment = plt.pyplot.subplots(figsize=(8, 5))
+                fig_enrollment, ax_enrollment = plt.subplots(figsize=(8, 5))
                 enrollment_df.plot(kind='bar', ax=ax_enrollment, color={'Male': 'steelblue', 'Female': 'palevioletred'})
 
                 ax_enrollment.set_title('School Enrollment (Male vs. Female)')
                 ax_enrollment.set_ylabel('Enrollment Rate (%)')
                 ax_enrollment.set_xlabel('Education Level')
                 ax_enrollment.tick_params(axis='x', rotation=45)
-                plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                plt.pyplot.tight_layout()
+                plt.grid(axis='y', linestyle='--', alpha=0.7)
+                plt.tight_layout()
                 st.pyplot(fig_enrollment)
     #------------------End of bar plot for School Enrollment-------------------#
 
@@ -351,7 +351,7 @@ def single_counrty_plots(country_row,log_file):
             if (((col_num == 'col1') | (col_num == 'col2') | (col_num == 'col3') | (col_num == 'col4') | (col_num == 'col5')) & (plots_column_allocation['school_enrollment'] is None)) :
                 with col5:
                     plot_data_life_expectancy = country_row.loc[country_name][['life_expectancy_male', 'life_expectancy_female']]
-                    fig_life_expectancy, ax_life_expectancy = plt.pyplot.subplots(figsize=(8, 5))
+                    fig_life_expectancy, ax_life_expectancy = plt.subplots(figsize=(8, 5))
                     plot_data_life_expectancy.plot(kind='bar', ax=ax_life_expectancy, color=['blue', 'gold'])
 
                     ax_life_expectancy.set_title('Life Expectancy Male vs. Female')
@@ -359,13 +359,13 @@ def single_counrty_plots(country_row,log_file):
                     ax_life_expectancy.set_xlabel('Indicator')
                     ax_life_expectancy.tick_params(axis='x', rotation=0)
 
-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                    plt.pyplot.tight_layout()
+                    plt.grid(axis='y', linestyle='--', alpha=0.7)
+                    plt.tight_layout()
                     st.pyplot(fig_life_expectancy)
             else:
                 with col6:
                     plot_data_life_expectancy = country_row.loc[country_name][['life_expectancy_male', 'life_expectancy_female']]
-                    fig_life_expectancy, ax_life_expectancy = plt.pyplot.subplots(figsize=(8, 5))
+                    fig_life_expectancy, ax_life_expectancy = plt.subplots(figsize=(8, 5))
                     plot_data_life_expectancy.plot(kind='bar', ax=ax_life_expectancy, color=['blue', 'gold'])
 
                     ax_life_expectancy.set_title('Life Expectancy Male vs. Female')
@@ -373,8 +373,8 @@ def single_counrty_plots(country_row,log_file):
                     ax_life_expectancy.set_xlabel('Indicator')
                     ax_life_expectancy.tick_params(axis='x', rotation=0)
 
-                    plt.pyplot.grid(axis='y', linestyle='--', alpha=0.7)
-                    plt.pyplot.tight_layout()
+                    plt.grid(axis='y', linestyle='--', alpha=0.7)
+                    plt.tight_layout()
                     st.pyplot(fig_life_expectancy)
     # ------------------End of bar Life Expectancy-------------------#
 

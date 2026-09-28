@@ -1,28 +1,27 @@
 # Import libraries
-from libs_and_modules import *
 
 # Import function files
-from config_app_env import *
-from manage_app_interface import *
-from Intra_country_functions import *
-from Intra_continent_functions import *
-from Intra_region_functions import *
-from Inter_Country import *
-from Inter_Continent import *
-from Inter_Region import *
-from Correlation_Matrix import *
-from Units_Txt import *
+from src.infra.config_app_env import *
+from src.infra.manage_app_interface import *
+from src.algo.Intra_country_functions import *
+from src.algo.Intra_continent_functions import *
+from src.algo.Intra_region_functions import *
+from src.algo.Inter_Country import *
+from src.algo.Inter_Continent import *
+from src.algo.Inter_Region import *
+from src.algo.Correlation_Matrix import *
+from src.algo.Units_Txt import *
 
 # Default values for configurable parameters
 row_dropna_threshold_factor = 0.9 # The relation between the number of non empty cells to the total number of cells in a row
-plt.pyplot.rcParams['figure.max_open_warning'] = 30  # Set the limit for warnings on max number of figures ( Default is 20 )
+plt.rcParams['figure.max_open_warning'] = 30  # Set the limit for warnings on max number of figures ( Default is 20 )
 
 # Configure the Streamlit environment of MyCountry App and run it
-set_st_bg('streamlit_countries_background.jpg')
+set_st_bg('src/infra/streamlit_countries_background.jpg')
 config_st_page()
 country_data, country_column_data, country_columns_nan_percentage, country_geo_data = st_ui_start(row_dropna_threshold_factor)
 analysis_type, target_entity = st_user_select_analysis(country_geo_data['countries'],country_geo_data['continents'], country_geo_data['regions'] )
-
+char_exp = units_txt()
 # Run the analysis based on the user's selection
 if analysis_type == 'intra_country':
     country_row = country_data[country_data.index == target_entity]
@@ -39,7 +38,7 @@ if analysis_type == 'intra_region':
 # each of the inter... functions return figures handles to be displayed in streamlit.
 # inside the functions, we do not call streamlit graphics!
 if analysis_type == 'inter_country':
-    figs = inter_country(country_data, target_entity, compareTo='World')
+    figs = inter_country(country_data, target_entity, char_exp,compareTo='World')
     for fig in figs:
         st.pyplot(fig)
 
@@ -61,7 +60,7 @@ if analysis_type == 'correlation_matrix':
 
 
 # Describe each of the parameters in the API  and the descriptive statistics of the selected DataFrame on the screen
-char_exp = units_txt()
+
 st.markdown("<div style='color:white; margin-bottom:-20px;'>Description of the numeric variables in the data </div>",unsafe_allow_html=True)
 st.markdown("<div style='color:white; margin-bottom:0px;'>---------------------------------------------------------------</div>",unsafe_allow_html=True)
 st.dataframe(char_exp)

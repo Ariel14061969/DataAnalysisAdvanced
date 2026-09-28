@@ -22,7 +22,7 @@ import statistics as stt
 import pandas as pd
 import numpy as ny
 import seaborn as sns
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import plotly as px
 import streamlit as st
 import requests

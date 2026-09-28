@@ -1,5 +1,5 @@
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 # ---------------------------------------#
 # Function: set_st_bg                    #

@@ -23,3 +23,25 @@ Starting single_continent_plots function
 
 single_continent_plots function concluded
 #-----------------------------------------------------------------------#
+Log for continent Oceania opened at: 2026-09-28 13:29:48 Jerusalm time. UTC time is 2026-09-28 10:29:48
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 9 countries in the dataset of this continent:
+Australia
+Fiji
+Marshall Islands
+New Zealand
+Palau
+Papua New Guinea
+Samoa
+Solomon Islands
+Tonga
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#

@@ -1,4 +1,4 @@
-Log opened at: 2026-09-14 13:41:27 Jerusalm time. UTC time is 2026-09-14 10:41:27
+Log opened at: 2026-09-28 13:30:17 Jerusalm time. UTC time is 2026-09-28 10:30:17
 Run on data imported from existing csv file created in the past
 Starting Analysis and Processing...
 

@@ -2,7 +2,7 @@
 #from statistics import mean
 
 # Import libraries
-from libs_and_modules import *
+from src.algo.libs_and_modules import *
 
 def inter_country(country_data,MyCountry,char_exp, compareTo='World'):
 
@@ -35,9 +35,9 @@ def inter_country(country_data,MyCountry,char_exp, compareTo='World'):
                 lb = lb + ' per capita'
 
             if ng % 4 == 0:
-                # Lior Sinay 10/09/26 - replaced plt with plt.pyplot
+                # Lior Sinay 10/09/26 - replaced plt with plt.
                 #fig, axes = plt.subplots(2,2,figsize=(12, 6))
-                fig, axes = plt.pyplot.subplots(2, 2, figsize=(12, 6))
+                fig, axes = plt.subplots(2, 2, figsize=(12, 6))
                 axes = axes.flatten()
             ax = axes[ng % 4]
             expl = char_exp[char_exp['var'] == col]['explain']

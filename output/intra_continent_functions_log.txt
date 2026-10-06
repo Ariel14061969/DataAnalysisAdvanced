@@ -45,3 +45,6711 @@ Starting single_continent_plots function
 
 single_continent_plots function concluded
 #-----------------------------------------------------------------------#
+Log for continent North America opened at: 2026-09-28 13:39:37 Jerusalm time. UTC time is 2026-09-28 10:39:37
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 17 countries in the dataset of this continent:
+Bahamas
+Barbados
+Belize
+Canada
+Costa Rica
+Cuba
+Dominican Republic
+El Salvador
+Guatemala
+Honduras
+Jamaica
+Mexico
+Nicaragua
+Panama
+Saint Lucia
+Saint Vincent and the Grenadines
+United States
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 17:42:48 Jerusalm time. UTC time is 2026-09-28 14:42:48
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 17:43:12 Jerusalm time. UTC time is 2026-09-28 14:43:12
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 17:43:24 Jerusalm time. UTC time is 2026-09-28 14:43:24
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 18:56:49 Jerusalm time. UTC time is 2026-09-28 15:56:49
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 18:57:53 Jerusalm time. UTC time is 2026-09-28 15:57:53
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 19:27:52 Jerusalm time. UTC time is 2026-09-28 16:27:52
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 19:28:15 Jerusalm time. UTC time is 2026-09-28 16:28:15
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 19:28:26 Jerusalm time. UTC time is 2026-09-28 16:28:26
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-28 19:28:43 Jerusalm time. UTC time is 2026-09-28 16:28:43
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-29 13:33:52 Jerusalm time. UTC time is 2026-09-29 10:33:52
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-29 13:34:02 Jerusalm time. UTC time is 2026-09-29 10:34:02
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-29 13:34:05 Jerusalm time. UTC time is 2026-09-29 10:34:05
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-29 13:39:59 Jerusalm time. UTC time is 2026-09-29 10:39:59
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-29 14:05:28 Jerusalm time. UTC time is 2026-09-29 11:05:28
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-29 14:13:54 Jerusalm time. UTC time is 2026-09-29 11:13:54
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:14:12 Jerusalm time. UTC time is 2026-09-30 10:14:12
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:49:35 Jerusalm time. UTC time is 2026-09-30 10:49:35
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:49:40 Jerusalm time. UTC time is 2026-09-30 10:49:40
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:49:47 Jerusalm time. UTC time is 2026-09-30 10:49:47
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:49:52 Jerusalm time. UTC time is 2026-09-30 10:49:52
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:49:57 Jerusalm time. UTC time is 2026-09-30 10:49:57
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:52:34 Jerusalm time. UTC time is 2026-09-30 10:52:34
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 13:53:02 Jerusalm time. UTC time is 2026-09-30 10:53:02
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:02:27 Jerusalm time. UTC time is 2026-09-30 14:02:27
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:02:44 Jerusalm time. UTC time is 2026-09-30 14:02:44
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:07:45 Jerusalm time. UTC time is 2026-09-30 14:07:45
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:15:19 Jerusalm time. UTC time is 2026-09-30 14:15:19
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:18:41 Jerusalm time. UTC time is 2026-09-30 14:18:41
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:24:50 Jerusalm time. UTC time is 2026-09-30 14:24:50
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:26:28 Jerusalm time. UTC time is 2026-09-30 14:26:28
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:28:08 Jerusalm time. UTC time is 2026-09-30 14:28:08
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:31:08 Jerusalm time. UTC time is 2026-09-30 14:31:08
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:31:44 Jerusalm time. UTC time is 2026-09-30 14:31:44
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-09-30 17:31:51 Jerusalm time. UTC time is 2026-09-30 14:31:51
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:03:28 Jerusalm time. UTC time is 2026-10-04 09:03:28
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:05:07 Jerusalm time. UTC time is 2026-10-04 09:05:07
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:09:43 Jerusalm time. UTC time is 2026-10-04 09:09:43
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:12:47 Jerusalm time. UTC time is 2026-10-04 09:12:47
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:14:13 Jerusalm time. UTC time is 2026-10-04 09:14:13
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:14:20 Jerusalm time. UTC time is 2026-10-04 09:14:20
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:14:39 Jerusalm time. UTC time is 2026-10-04 09:14:39
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:15:14 Jerusalm time. UTC time is 2026-10-04 09:15:14
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:15:32 Jerusalm time. UTC time is 2026-10-04 09:15:32
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:20:44 Jerusalm time. UTC time is 2026-10-04 09:20:44
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:21:19 Jerusalm time. UTC time is 2026-10-04 09:21:19
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:21:46 Jerusalm time. UTC time is 2026-10-04 09:21:46
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:22:58 Jerusalm time. UTC time is 2026-10-04 09:22:58
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:25:25 Jerusalm time. UTC time is 2026-10-04 09:25:25
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 12:25:50 Jerusalm time. UTC time is 2026-10-04 09:25:50
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:08:15 Jerusalm time. UTC time is 2026-10-04 10:08:15
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:10:08 Jerusalm time. UTC time is 2026-10-04 10:10:08
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:10:15 Jerusalm time. UTC time is 2026-10-04 10:10:15
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:10:35 Jerusalm time. UTC time is 2026-10-04 10:10:35
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:12:52 Jerusalm time. UTC time is 2026-10-04 10:12:52
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:13:11 Jerusalm time. UTC time is 2026-10-04 10:13:11
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:13:15 Jerusalm time. UTC time is 2026-10-04 10:13:15
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-04 13:14:25 Jerusalm time. UTC time is 2026-10-04 10:14:25
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 10:09:20 Jerusalm time. UTC time is 2026-10-05 07:09:20
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 10:10:49 Jerusalm time. UTC time is 2026-10-05 07:10:49
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:23:52 Jerusalm time. UTC time is 2026-10-05 10:23:52
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:26:27 Jerusalm time. UTC time is 2026-10-05 10:26:27
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:26:52 Jerusalm time. UTC time is 2026-10-05 10:26:52
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:27:22 Jerusalm time. UTC time is 2026-10-05 10:27:22
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:27:42 Jerusalm time. UTC time is 2026-10-05 10:27:42
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:27:59 Jerusalm time. UTC time is 2026-10-05 10:27:59
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:28:23 Jerusalm time. UTC time is 2026-10-05 10:28:23
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:28:48 Jerusalm time. UTC time is 2026-10-05 10:28:48
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:33:54 Jerusalm time. UTC time is 2026-10-05 10:33:54
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:34:26 Jerusalm time. UTC time is 2026-10-05 10:34:26
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:34:48 Jerusalm time. UTC time is 2026-10-05 10:34:48
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:35:05 Jerusalm time. UTC time is 2026-10-05 10:35:05
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:35:37 Jerusalm time. UTC time is 2026-10-05 10:35:37
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:36:47 Jerusalm time. UTC time is 2026-10-05 10:36:47
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:36:59 Jerusalm time. UTC time is 2026-10-05 10:36:59
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:40:12 Jerusalm time. UTC time is 2026-10-05 10:40:12
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:41:26 Jerusalm time. UTC time is 2026-10-05 10:41:26
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:44:22 Jerusalm time. UTC time is 2026-10-05 10:44:22
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:47:30 Jerusalm time. UTC time is 2026-10-05 10:47:30
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:47:45 Jerusalm time. UTC time is 2026-10-05 10:47:45
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:48:00 Jerusalm time. UTC time is 2026-10-05 10:48:00
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:49:01 Jerusalm time. UTC time is 2026-10-05 10:49:01
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:49:14 Jerusalm time. UTC time is 2026-10-05 10:49:14
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:49:26 Jerusalm time. UTC time is 2026-10-05 10:49:26
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:50:00 Jerusalm time. UTC time is 2026-10-05 10:50:00
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:51:43 Jerusalm time. UTC time is 2026-10-05 10:51:43
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:52:13 Jerusalm time. UTC time is 2026-10-05 10:52:13
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:52:28 Jerusalm time. UTC time is 2026-10-05 10:52:28
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:55:36 Jerusalm time. UTC time is 2026-10-05 10:55:36
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:56:35 Jerusalm time. UTC time is 2026-10-05 10:56:35
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 13:56:54 Jerusalm time. UTC time is 2026-10-05 10:56:54
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:01:00 Jerusalm time. UTC time is 2026-10-05 11:01:00
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:01:04 Jerusalm time. UTC time is 2026-10-05 11:01:04
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:07:07 Jerusalm time. UTC time is 2026-10-05 11:07:07
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:07:21 Jerusalm time. UTC time is 2026-10-05 11:07:21
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:07:37 Jerusalm time. UTC time is 2026-10-05 11:07:37
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:09:07 Jerusalm time. UTC time is 2026-10-05 11:09:07
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:12:07 Jerusalm time. UTC time is 2026-10-05 11:12:07
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:12:42 Jerusalm time. UTC time is 2026-10-05 11:12:42
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:14:53 Jerusalm time. UTC time is 2026-10-05 11:14:53
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:15:27 Jerusalm time. UTC time is 2026-10-05 11:15:27
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:16:19 Jerusalm time. UTC time is 2026-10-05 11:16:19
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:16:27 Jerusalm time. UTC time is 2026-10-05 11:16:27
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:17:11 Jerusalm time. UTC time is 2026-10-05 11:17:11
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:18:56 Jerusalm time. UTC time is 2026-10-05 11:18:56
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 14:23:38 Jerusalm time. UTC time is 2026-10-05 11:23:38
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 18:44:37 Jerusalm time. UTC time is 2026-10-05 15:44:37
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 19:16:03 Jerusalm time. UTC time is 2026-10-05 16:16:03
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 19:16:47 Jerusalm time. UTC time is 2026-10-05 16:16:47
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-05 19:19:04 Jerusalm time. UTC time is 2026-10-05 16:19:04
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:06:56 Jerusalm time. UTC time is 2026-10-06 08:06:56
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:08:38 Jerusalm time. UTC time is 2026-10-06 08:08:38
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:09:04 Jerusalm time. UTC time is 2026-10-06 08:09:04
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:18:01 Jerusalm time. UTC time is 2026-10-06 08:18:01
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:20:04 Jerusalm time. UTC time is 2026-10-06 08:20:04
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:21:14 Jerusalm time. UTC time is 2026-10-06 08:21:14
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:21:41 Jerusalm time. UTC time is 2026-10-06 08:21:41
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:24:17 Jerusalm time. UTC time is 2026-10-06 08:24:17
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:30:00 Jerusalm time. UTC time is 2026-10-06 08:30:00
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:35:48 Jerusalm time. UTC time is 2026-10-06 08:35:48
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:38:54 Jerusalm time. UTC time is 2026-10-06 08:38:54
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:40:38 Jerusalm time. UTC time is 2026-10-06 08:40:38
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:42:55 Jerusalm time. UTC time is 2026-10-06 08:42:55
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:45:59 Jerusalm time. UTC time is 2026-10-06 08:45:59
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:48:20 Jerusalm time. UTC time is 2026-10-06 08:48:20
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:49:10 Jerusalm time. UTC time is 2026-10-06 08:49:10
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#
+Log for continent Asia opened at: 2026-10-06 11:57:26 Jerusalm time. UTC time is 2026-10-06 08:57:26
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+ There are 40 countries in the dataset of this continent:
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei Darussalam
+Cambodia
+China
+Cyprus
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Jordan
+Kazakhstan
+Kuwait
+Kyrgyzstan
+Malaysia
+Mongolia
+Nepal
+Oman
+Pakistan
+Philippines
+Qatar
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+
+#-------------------------------------------------------------------------------------------#
+
+
+Starting single_continent_plots function
+#----------------------------#
+
+single_continent_plots function concluded
+#-----------------------------------------------------------------------#

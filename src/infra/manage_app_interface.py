@@ -35,33 +35,35 @@ def st_ui_start(row_dropna_threshold_factor = 0.9):
     st.markdown(
         "<h3 style='text-align: left; color: white; font-weight: bold;'>MyCountry - The World In Your Hands</h2>",
         unsafe_allow_html=True)
-
-    name = st.text_input('Enter your name, please:', '', autocomplete='off')
+    st.markdown("<h3 style='color:white;'><b>Enter your name, please:':</b></h3>", unsafe_allow_html=True)
+    name = st.text_input('Enter your name, please:', '', autocomplete='off',label_visibility='collapsed')
     if not name:
         st.stop()
 
-    st.write(
-        f"<span style='color: white; font-weight: bold;'>Hello, <span style='color: white; font-weight: bold;'>{name}, welcome to MyCountry</span>!",
-        unsafe_allow_html=True)
+    st.markdown(f"<h3 style='color:white;'><b> Hello {name}, welcome to MyCountry:</b></h3>", unsafe_allow_html=True)
+    #st.write(
+    #    f"<span style='color: white; font-weight: bold;'>Hello, <span style='color: white; font-weight: bold;'>{name}, welcome to MyCountry</span>!",
+    #    unsafe_allow_html=True)
 
     # Ask the user to select whether to import new data or use existing
     #import_data_options = ['','n', 'y']
     import_data_options = ['n', 'y']
-    st.markdown("<div style='color:white; margin-bottom:-20px;'>Re-import data ? (y = re-import / n = use existing):</div>",
-                unsafe_allow_html=True)
-    col_select, col_empty = st.columns([1, 8])
-    with col_select:
+
+    c1, c2= st.columns(2)
+    with c1:
+        st.markdown(
+            "<div style='color:white; margin-bottom:-20px;'>Re-import data ? (y = re-import / n = use existing):</div>",
+            unsafe_allow_html=True)
         Import_data = st.selectbox('Import Data (y/n)', import_data_options, label_visibility='hidden', index = 0, key='import_data_selection')
     if not Import_data:
         st.stop()
 
     # Ask the user whether to delete log files from previous runs
     #delete_previous_log_options = ['','n', 'y']
-    delete_previous_log_options = ['n', 'y']
-    st.markdown("<div style='color:white; margin-bottom:-20px;'>Delete log file ? (y = delete / n = keep):</div>",
+    with c2:
+        delete_previous_log_options = ['n', 'y']
+        st.markdown("<div style='color:white; margin-bottom:-20px;'>Delete log file ? (y = delete / n = keep):</div>",
                 unsafe_allow_html=True)
-    col_select, col_empty = st.columns([1, 8])
-    with col_select:
         Delete_logs = st.selectbox('Delete logs (y/n)', delete_previous_log_options, label_visibility='hidden', index = 0, key='delet_logs_selection')
     if not Delete_logs:
         st.stop()
@@ -99,8 +101,8 @@ def st_ui_start(row_dropna_threshold_factor = 0.9):
     else:
         try:
             country_data_orig = pd.read_csv('data/country_with_data.csv')
-            st.write(
-            f"<span style='color: white; font-weight: bold;'>Finished loading and reading current data</span>", unsafe_allow_html=True)
+            #st.write(
+            #f"<span style='color: white; font-weight: bold;'>Finished loading and reading current data</span>", unsafe_allow_html=True)
 
         except Exception as e:
             st.write(f"<span style='color: white; font-weight: bold;'>Failed to load current data:{e}</span>",

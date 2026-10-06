@@ -1,47 +1,328 @@
-Log opened at: 2026-09-28 13:29:27 Jerusalm time. UTC time is 2026-09-28 10:29:27
+Log opened at: 2026-09-30 17:31:50 Jerusalm time. UTC time is 2026-09-30 14:31:50
 #------------------------------------------------------------------------------------------------------------#
 
 Starting country ID function
 #----------------------------#
-Country_Name: Argentina
-ISO2: AR
-Continent: South America
-gdp: 518475.0
-sex_ratio: 95.3
-surface_area: 2780400.0
-life_expectancy_male: 73.0
-unemployment: 10.4
-homicide_rate: 5.3
-urban_population_growth: 1.2
-secondary_school_enrollment_female: 111.0
-employment_agriculture: 0.1
-co2_emissions: 183.4
-forested_area: 9.9
-tourists: 6942.0
-life_expectancy_female: 79.8
-post_secondary_enrollment_female: 112.8
-post_secondary_enrollment_male: 67.8
-primary_school_enrollment_female: 109.6
-infant_mortality: 10.2
-gdp_growth: -2.5
-population: 45196.0
-urban_population: 92.0
-secondary_school_enrollment_male: 106.5
-pop_growth: 1.0
-region: South America
-pop_density: 16.5
-internet_users: 74.3
-gdp_per_capita: 11687.6
-fertility: 2.3
-refugees: 165.6
-primary_school_enrollment_male: 109.9
-employment_industry: 21.0
-employment_services: 78.9
-imports: 49125.0
-exports: 65114.0
-capital: Buenos Aires
+
+No empty cells were found in the data for Bahamas.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+
+There are 1 cells in the plot list that have no data. Here are their names:
+column_name
+column_name
+column_name
+
+
+The following plots were not drawn since one or more of their values has no data:
+school_enrollment
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:01:01 Jerusalm time. UTC time is 2026-10-04 09:01:01
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+Log opened at: 2026-10-04 12:03:26 Jerusalm time. UTC time is 2026-10-04 09:03:26
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Albania.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:01:23 Jerusalm time. UTC time is 2026-10-04 09:01:23
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+Log opened at: 2026-10-04 12:05:05 Jerusalm time. UTC time is 2026-10-04 09:05:05
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Albania.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:09:41 Jerusalm time. UTC time is 2026-10-04 09:09:41
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Albania.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:12:45 Jerusalm time. UTC time is 2026-10-04 09:12:45
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Albania.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:14:11 Jerusalm time. UTC time is 2026-10-04 09:14:11
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Angola.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:14:19 Jerusalm time. UTC time is 2026-10-04 09:14:19
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
 
 No empty cells were found in the data for Argentina.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:14:38 Jerusalm time. UTC time is 2026-10-04 09:14:38
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Australia.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:15:12 Jerusalm time. UTC time is 2026-10-04 09:15:12
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Honduras.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:15:31 Jerusalm time. UTC time is 2026-10-04 09:15:31
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Greece.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:20:42 Jerusalm time. UTC time is 2026-10-04 09:20:42
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Greece.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:21:13 Jerusalm time. UTC time is 2026-10-04 09:21:13
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Greece.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:21:45 Jerusalm time. UTC time is 2026-10-04 09:21:45
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Australia.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 12:22:56 Jerusalm time. UTC time is 2026-10-04 09:22:56
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Australia.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 13:10:15 Jerusalm time. UTC time is 2026-10-04 10:10:15
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Albania.
+
+
+Country ID function concluded
+#---------------------------------------------------------------#
+
+
+Starting single_country_plots function
+#----------------------------#
+
+All cells used for plots have data. All figures plotted
+
+single_counrty_plots function concluded
+#-----------------------------------------------------------------------#
+Log opened at: 2026-10-04 13:13:15 Jerusalm time. UTC time is 2026-10-04 10:13:15
+#------------------------------------------------------------------------------------------------------------#
+
+Starting country ID function
+#----------------------------#
+
+No empty cells were found in the data for Albania.
 
 
 Country ID function concluded

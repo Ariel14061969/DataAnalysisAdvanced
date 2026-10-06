@@ -20,6 +20,8 @@ import statistics as stt
 # External
 #----------
 import pandas as pd
+import geopandas as gpd
+import pyogrio
 import numpy as ny
 import seaborn as sns
 import matplotlib.pyplot as plt

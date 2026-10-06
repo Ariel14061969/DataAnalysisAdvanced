@@ -11,7 +11,7 @@ from src.algo.libs_and_modules import *
 #                                                                                                                      #
 # Return:   None ( VOID )                                                                                              #
 #----------------------------------------------------------------------------------------------------------------------#
-def run_intra_country_analysis(country_row, country_all_columns ):
+def run_intra_country_analysis(country_row, country_all_columns , world):
     # Open the Intra country analysis log file
     log_file = open('intra_country_functions_log.txt', 'a+')
     log_file.write(f'Log opened at: {dt.datetime.now(zi.ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H:%M:%S")} Jerusalm time. '
@@ -19,7 +19,7 @@ def run_intra_country_analysis(country_row, country_all_columns ):
     log_file.write(f'#------------------------------------------------------------------------------------------------------------#\n')
 
     # Call the analysis functions
-    get_country_id_data(country_row, country_all_columns,log_file)
+    get_country_id_data(country_row, country_all_columns,world,log_file)
     single_counrty_plots(country_row,log_file)
     log_file.close()
 #----------------------------------End of Function run_intra_country_analysis------------------------------------------#
@@ -35,7 +35,7 @@ def run_intra_country_analysis(country_row, country_all_columns ):
 #                                                                                                                      #
 # Return:   None ( VOID )                                                                                              #
 #----------------------------------------------------------------------------------------------------------------------#
-def get_country_id_data(country_row, country_all_columns,log_file):
+def get_country_id_data(country_row, country_all_columns,world,log_file):
     log_file.write(f'\nStarting country ID function\n')
     log_file.write(f'#----------------------------#\n')
     df_country = country_row
@@ -44,46 +44,29 @@ def get_country_id_data(country_row, country_all_columns,log_file):
     country_id['Country_Name'] = country_name
     for key in country_all_columns:
         country_id[key] = df_country.loc[country_name][key]
-
+    col1, col2 = st.columns(2)
     empty_columns = list()
     # Prepare the content of the country ID
     formatted_data = ''
-    for key, value in country_id.items():
-        if (key == 'flag_url'):
-            svg_data = requests.get(df_country.loc[country_name, 'flag_url']).content
 
-            # Convert vector SVG data into a rasterized PNG byte stream
-            png_data = svg.svg2png(bytestring=svg_data)
-            img = Image.open(BytesIO(png_data))
-            st.image(img)
-            continue
-        elif (pd.isna(value)):
-            formatted_data += f"{key}: No Data\n"
-            log_file.write(f'{key}: No Data\n')
-            empty_columns.append(key)  # Record the empty cells that are not the flag_url
-        else:
-            formatted_data += f"{key}: {value}\n"
-            log_file.write(f'{key}: {value}\n')
 
-    # Define the Text Box structure and text format
-    col1, col2 = st.columns([2, 7])  # Adjust column ratios for desired width
-    with col1:
-        st.markdown("<h3 style='color:white;'><b>Country ID</b></h3>", unsafe_allow_html=True)
-        st.text_area("Country Details Label", formatted_data, height=400, label_visibility='hidden')
+
+    # display(Asia)
+    st.write(country_id)
 
     # Print the cells with no data to the log file
     if empty_columns:
-        log_file.write(f'\nThe following columns are empty and reported as "No Data" in the country ID:\n')
-        log_file.write('[\n')
-        for val in empty_columns:
-            log_file.write(f'{val}\n')
-        log_file.write(']')
+            log_file.write(f'\nThe following columns are empty and reported as "No Data" in the country ID:\n')
+            log_file.write('[\n')
+            for val in empty_columns:
+                log_file.write(f'{val}\n')
+            log_file.write(']')
 
     else:
         log_file.write(f'\nNo empty cells were found in the data for {country_name}.\n')
 
-    log_file.write(f'\n\nCountry ID function concluded\n')
-    log_file.write(f'#---------------------------------------------------------------#\n')
+        log_file.write(f'\n\nCountry ID function concluded\n')
+        log_file.write(f'#---------------------------------------------------------------#\n')
 
 #-------------------------------------End of Function get_country_id_data-----------------------------------------------#
 
@@ -286,7 +269,7 @@ def single_counrty_plots(country_row,log_file):
                     # Create custom legend labels with values
                     legend_labels = [f'{label}: {value:.1f}%' for label, value in zip(pie_labels, pie_data)]
                     ax_employment_pie.legend(wedges, legend_labels, title="Sectors", loc="lower left",
-                                             bbox_to_anchor=(-0.1, -0.2))
+                                             bbox_to_anchor=(-0.1, -0.2),fontsize=12)
 
                     plt.tight_layout()
                     st.pyplot(fig_employment_pie)
@@ -337,8 +320,8 @@ def single_counrty_plots(country_row,log_file):
                 enrollment_df.plot(kind='bar', ax=ax_enrollment, color={'Male': 'steelblue', 'Female': 'palevioletred'})
 
                 ax_enrollment.set_title('School Enrollment (Male vs. Female)')
-                ax_enrollment.set_ylabel('Enrollment Rate (%)')
-                ax_enrollment.set_xlabel('Education Level')
+                ax_enrollment.set_ylabel('Enrollment Rate (%)',fontsize=12)
+                ax_enrollment.set_xlabel('Education Level',fontsize=12)
                 ax_enrollment.tick_params(axis='x', rotation=45)
                 plt.grid(axis='y', linestyle='--', alpha=0.7)
                 plt.tight_layout()
@@ -355,8 +338,8 @@ def single_counrty_plots(country_row,log_file):
                     plot_data_life_expectancy.plot(kind='bar', ax=ax_life_expectancy, color=['blue', 'gold'])
 
                     ax_life_expectancy.set_title('Life Expectancy Male vs. Female')
-                    ax_life_expectancy.set_ylabel('Value in Years')
-                    ax_life_expectancy.set_xlabel('Indicator')
+                    ax_life_expectancy.set_ylabel('Value in Years',fontsize=12)
+                    ax_life_expectancy.set_xlabel('Indicator',fontsize=12)
                     ax_life_expectancy.tick_params(axis='x', rotation=0)
 
                     plt.grid(axis='y', linestyle='--', alpha=0.7)
@@ -369,8 +352,8 @@ def single_counrty_plots(country_row,log_file):
                     plot_data_life_expectancy.plot(kind='bar', ax=ax_life_expectancy, color=['blue', 'gold'])
 
                     ax_life_expectancy.set_title('Life Expectancy Male vs. Female')
-                    ax_life_expectancy.set_ylabel('Value in Years')
-                    ax_life_expectancy.set_xlabel('Indicator')
+                    ax_life_expectancy.set_ylabel('Value in Years',fontsize=12)
+                    ax_life_expectancy.set_xlabel('Indicator',fontsize=12)
                     ax_life_expectancy.tick_params(axis='x', rotation=0)
 
                     plt.grid(axis='y', linestyle='--', alpha=0.7)

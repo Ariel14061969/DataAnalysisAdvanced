@@ -35,18 +35,18 @@ def plot_interesting_correlations(country_data, matrix, threshold = 0.8):
                     for col in matrix.columns[i:]:
                         val = matrix.loc[row, col]
                         if val > threshold and col != row:
-                            if ng % n_subg == 0:
+
                                 #Lior Sinay 10/09/2026 - plt replaced with plt.
                                 #fig, axes = plt.subplots(2, 2, figsize=[12, 5])
-                                fig, axes = plt.subplots(2, 2, figsize=[12, 5])
-                                axes = axes.flatten()
-                            axc = axes[ng % n_subg]
-                            axc.scatter(country_data[row], country_data[col],s=5)
-                            axc.set_xlabel(row,fontsize=7)
-                            axc.set_ylabel(col,fontsize=7)
-                            axc.tick_params(axis='both', labelsize=7)
-                            if ng % n_subg == 1:
-                                figs.append(fig)
-                            ng = ng + 1
+                            fig, ax = plt.subplots()
+
+                            axc = ax
+                            axc.scatter(country_data[row], country_data[col],s=7)
+                            axc.set_xlabel(row,fontsize=12)
+                            axc.set_ylabel(col,fontsize=12)
+                            axc.tick_params(axis='both', labelsize=12)
+
+                            figs.append(fig)
+
     return figs
 

@@ -45,7 +45,7 @@ def config_st_page():
     <style>
         /* Styles for the text inside the input box, making it left-aligned */
         .stTextInput > div > div > input {
-            color: black;
+            color: red;
             font-weight: bold;
             text-align: left;
         }
@@ -60,7 +60,7 @@ def config_st_page():
 
         /* Styles for the label of the text input, making it left-aligned */
         [data-testid="stTextInput"] label {
-            color: white;
+            color: red;
             font-weight: bold;
             text-align: left;
             width: 100%; /* Ensure label takes full width for text-align to work within its flex container */
@@ -68,7 +68,7 @@ def config_st_page():
 
         /* Styles for general st.write output, making it left-aligned */
         [data-testid="stText"] {
-            color: white;
+            color: red;
             font-weight: bold;
             text-align: left;
         }
